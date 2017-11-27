@@ -6,14 +6,18 @@ layout: default
   <article class="post">
     <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
     {{ content | markdownify }}
+    {% if page.streaming %}
     <h2>Écoutez notre album en ligne</h2>
     {% for service in page.streaming %}
     <a href="{{ service.url }}">{{ service.nom }}</a>
     {% endfor %}
+    {% endif%}
+    {% if age.musiciens %}
     <h2>Les musiciens</h2>
     {% for musicien in page.musiciens %}
     {{ musicien }}<br>
     {% endfor %}
+    {% endif%}
   </article>
 
 </div>
