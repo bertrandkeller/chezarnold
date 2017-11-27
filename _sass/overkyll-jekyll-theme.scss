@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+$base-font-name: Abel;
+$title-font-name: Abel;
+
+// Configuration
+@import "overkyll/overkyll";
+@import "elements/form";
+//@import "elements/buttons";
+
+
+label, input, textarea {
+	width: 100%;
+}
+
+.button.button--warning{
+	color: #000;
+}
+
+.site-header-hero {
+	position: relative;
+	min-height: 35vmin;
+	background-image: url(/assets/images/background-arnold.jpg);
+}

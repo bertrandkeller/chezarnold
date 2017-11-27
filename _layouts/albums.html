@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <article class="post">
+    <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
+    {{ content | markdownify }}
+    <h2>Les musiciens</h2>
+    {% for musicien in page.musiciens %}
+    {{ musicien }}<br>
+    {% endfor %}
+  </article>
+
+</div>

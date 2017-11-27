@@ -1,0 +1,240 @@
+////
+/// Form
+////
+
+// Form color
+
+$sassy-base-color: #777 !default;
+$sassy-accent-color: #111 !default;
+$sassy-disabled-color: #eee !default;
+
+@import "inputs/text";
+@import "inputs/button";
+@import "inputs/radio";
+@import "inputs/checkbox";
+@import "inputs/select";
+
+// Alert & message
+
+.symbol-required,.error {
+  color: $red;
+}
+
+.form-note,
+.form-info {
+  line-height: $ms2;
+}
+
+.form-note {
+  font-size: $smaller;
+  color: $color-grey;
+}
+
+
+.form-more,
+.form-description {
+  display: block;
+  margin: 0 0 $base-line/2;
+  font-size: $smaller;
+  color: #666;
+}
+
+.form-more {
+  font-size: $smaller;
+}
+
+// Alert confirmation message 
+
+.hf-warning {
+  margin: -0.1em 0 -#{$base-line*2+0.1em};
+  padding: 0.35em $base-line/3 0.15em;
+  font-size: $smaller;
+  background: #fff;
+  border: 1px solid;
+  @media #{$medium-up} {
+    position: absolute;
+    margin: -2.4em 0 0;
+    width: 13vw;
+    left: 99%;
+    color: #fff;
+    background: $color-grey-dark;
+    &:before {
+      position: absolute;
+      left: -10px;
+      content:'';
+      width: 10px;
+      height: 10px;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid $color-grey-dark;
+    }
+  }
+  border-radius: 4px;
+  & + .form-description {
+    visibility: hidden;
+    @media #{$medium-up} {
+      visibility: visible;
+    }
+  }
+}
+
+// Form
+
+form {
+  margin: 0 0 $base-line*2;
+  p:not([class^="form"]) {
+    max-width: 35em;
+  }
+}
+
+// Fieldset
+
+fieldset {
+  position: relative;
+  margin: 0 auto 0;
+  padding: $base-line 26px;
+  font-weight: 100;
+  border-color: #eee;
+  border-width: 1px;
+  background: $color-grey-light;
+  border-radius: 0 0 4px 4px;
+  fieldset {
+    margin: 0 0 $base-line;
+    padding: 0;
+    border: none;
+    text-align: left;
+    legend {
+      margin-left: -26px;
+      padding-top: 0;
+      padding-bottom: 0;
+      font-size: $title3;
+      color: #000;
+      border: none;
+      background: none;
+    }
+  }
+}
+
+// Legend
+
+legend {
+  margin: 0 -27px $base-line/2 -27px;
+  padding: $base-line/2 27px;
+  width: calc(100% + 54px);
+  font-size: $title2;
+  //color: #fff;
+  text-transform: uppercase;
+  border-top: 8px solid $color-primary;
+  border-bottom: 3px solid $color-grey;
+  background: $color-grey-light;
+  border-radius: 4px 4px 0 0;
+  & + * {
+    margin-top: 0;
+  }
+}
+
+// Form subscription
+
+.form-subscription {
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 35em;
+  fieldset {
+    margin-bottom: $base-line;
+    text-align: center;
+  }
+}
+
+// Input
+
+p {
+  text-align: left;
+  label, 
+  select,textarea,input:not([type="submit"]) {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  input[type="checkbox"], input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    vertical-align: baseline;
+  }
+  form > fieldset > &:last-of-type {
+    margin-bottom: $base-line*2;
+  }
+}
+
+.form-int_card {
+  margin: auto;
+  max-width: 22.5rem;
+}
+
+.form-input__small {
+  display: inline-block !important;
+  width: auto !important;
+  max-width: 80px;
+  vertical-align: baseline !important;
+  text-align: center;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+  margin: $base-line*3 auto $base-line*2;
+  text-align: center;
+}
+
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=password],
+input[type=number] {
+  @include sassy-text;
+}
+
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=password] {
+  @include sassy-text-control;
+}
+
+textarea {
+  @include sassy-textarea;
+}
+
+input[type=search] {
+  @include sassy-search;
+}
+
+input[type=checkbox] {
+  @include sassy-checkbox;
+}
+
+input[type=radio] {
+  @include sassy-radio;
+}
+
+.form-select-wrap {
+  @include sassy-select;
+}
+
+select[multiple] {
+  @include sassy-select-multiple;
+}
+
+[role=button],
+[type=submit],
+[type=button],
+button,
+.button {
+  @include sassy-button;
+  & + & {
+    margin-left: $base-line/2;
+  }
+}
+
+.ap-input-icon {
+  border: none;
+}

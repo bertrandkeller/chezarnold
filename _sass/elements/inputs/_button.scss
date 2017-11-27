@@ -1,0 +1,31 @@
+@mixin sassy-button {
+  box-sizing: border-box;
+
+  cursor: pointer;
+  
+  display: inline-block;
+  padding: $base-line/2 $base-line*2;
+  font-family: $title-font-family;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  transition: background .15s;
+  border: 4px solid $color-grey-light;
+    
+  &:hover,&:active,&:visited {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: 4px solid #000;
+  }
+
+  &:disabled {
+    color: darken($sassy-disabled-color, 30%);
+    background-color: $sassy-disabled-color;
+    cursor: not-allowed;
+
+    &:hover, &:focus {
+      box-shadow: none;
+    }
+  }
+}
