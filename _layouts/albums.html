@@ -6,6 +6,8 @@ layout: default
   <article class="post">
     <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
     {{ content | markdownify }}
+    <iframe width="1200" height="600" src="https://www.youtube.com/embed/C9n-5-_7hT4" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
+    <a href="#" data-show-id="1">Clip lonesome Troubadour</a>
     <img src="/assets/images/{{ page.title | slugify }}.jpg">
     {% if page.streaming %}
     <h2>Écoutez cet album en ligne</h2>

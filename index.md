@@ -20,10 +20,14 @@ title: accueil
 </p>
 
 <h2>Nos Albums</h2>
-<p>
-{% for album in site.albums %}
+<div class="grid">
+{% assign albums = site.albums | sort: 'annee', 'first' %}
+{% for album in albums reversed %}
+<div>
+<img src="/assets/images/{{ album.title | slugify }}.jpg">
 <a href="{{ album.url }}">{{ album.title }} - {{ album.annee }}</a><br>
+</div>
 {% endfor %}
-</p>
+</div>
 
 <p><a href="/albums.html">Tous nos albums</a></p>
