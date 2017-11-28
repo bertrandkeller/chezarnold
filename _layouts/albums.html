@@ -6,13 +6,18 @@ layout: default
   <article class="post">
     <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
     {{ content | markdownify }}
-    <iframe width="1200" height="600" src="https://www.youtube.com/embed/C9n-5-_7hT4" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
-    <a href="#" data-show-id="1">Clip lonesome Troubadour</a>
     <img src="/assets/images/{{ page.title | slugify }}.jpg">
+    {% if page.videos %}
+    <h3>Voir les Clips</h3>
+    {% for video in page.videos %}
+    <iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
+    <a href="#" class="button button--success" data-show-id="1">{{ video.nom }}</a>
+    {% endfor %}
+    {% endif %}
     {% if page.streaming %}
     <h2>Écoutez cet album en ligne</h2>
     {% for service in page.streaming %}
-    <a href="{{ service.url }}">{{ service.nom }}</a>
+    <a class="button button--success" href="{{ service.url }}">{{ service.nom }}</a>
     {% endfor %}
     {% endif%}
     {% if page.musiciens %}

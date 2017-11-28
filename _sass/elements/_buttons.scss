@@ -11,7 +11,7 @@ $btn-hover: darken 0% !default;
 $btn-border: darken 0% !default; // Set to false for no border
 $btn-size-ratio: 1.2 !default;
 $btn-schemes: (
-  default: $default,
+  default: #000,
   success: $color-primary,
   danger:  $danger,
   warning: $warning,

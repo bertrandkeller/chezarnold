@@ -2,8 +2,13 @@
 title: "Escroc"
 annee: 2011
 
-video:
- - url: 
+videos:
+ - nom: Lonesome Troubadour
+   url: C9n-5-_7hT4
+ - nom: Abesses
+   url: J-6sk8rOpOs
+ - nom: Saoul
+   url: xyvzFTIYGt4
 
 streaming:
  - nom: iTunes

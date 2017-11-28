@@ -2,6 +2,14 @@
 title: "Touriste"
 annee: 2013
 
+videos:
+ - nom: Le chant des artisans
+   url: 6sqN1DTx4oU
+ - nom: Tour de France
+   url: WkvN61xkRI0
+ - nom: Touriste
+   url: Xr47sLEVpWo
+
 streaming:
  - nom: iTunes
    url: https://itunes.apple.com/fr/album/touriste/id728375714

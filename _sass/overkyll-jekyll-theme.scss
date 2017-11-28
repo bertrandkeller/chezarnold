@@ -7,6 +7,14 @@ $title-font-name: Abel;
 
 // Configuration
 @import "overkyll/overkyll";
+
+$default:              	 #7f8c8d;
+$success:                $color-secondary;
+$danger:            	   #c0392b;
+$warning:            		 #f1c40f;
+$info:              	   #2980b9;
+
+@import "elements/buttons";
 @import "elements/form";
 //@import "elements/buttons";
 

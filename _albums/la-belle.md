@@ -2,6 +2,12 @@
 title: "La belle"
 annee: 2016
 
+videos:
+ - nom: Il faut
+   url: nfbmOaZ6NJI
+ - nom: Dandy
+   url: 4cOCqPV4Auc
+
 streaming:
  - nom: iTunes
    url: https://itunes.apple.com/fr/album/la-belle/id1099779362
