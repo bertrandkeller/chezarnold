@@ -14,8 +14,8 @@ layout: default
     {% if page.videos %}
     <h3>Voir les Clips</h3>
     {% for video in page.videos %}
-    <iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
-    <a href="#" class="button button--small button--success" data-show-id="1">{{ video.nom }}</a>
+    <iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="{{ video.url }}"></iframe>
+    <a href="#" class="button button--small button--success" data-show-id="{{ video.url }}">{{ video.nom }}</a>
     {% endfor %}
     {% include popin.js %}
     {% endif %}
