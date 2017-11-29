@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
     {{ content | markdownify }}
     {% if site.environment != 'development' %}
-    {% cloudinary /assets/images/{{ alpagebum.title | slugify }}.jpg alt="{{page.title}}" %}
+    {% cloudinary /assets/images/{{ page.title | slugify }}.jpg alt="{{ page.title }}" %}
     {% else %}
     <img src="/assets/images/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
     {% endif %}
