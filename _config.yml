@@ -61,4 +61,4 @@ algolia:
   index_name: 'chezarnold'
 
 plugins:
-  - algoliasearch-jekyll
+  - jekyll-algolia
