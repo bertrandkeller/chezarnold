@@ -18,18 +18,41 @@ streaming:
  - nom: Spotify
    url: https://open.spotify.com/album/25YqNjyKl7ScZ6AuOpDizz
 
+songs:
+ - titre: Exil
+   duree: '4:09'
+ - titre: Ti séga
+   duree: '2:38'
+ - titre: Adèle
+   duree: '3:52'
+ - titre: Il faut
+   duree: '3:50'
+ - titre: Dandy
+   duree: '3:20'
+ - titre: La dodo
+   duree: '2:47'
+ - titre: Pourquoi tu pars
+   duree: '3:48'
+ - titre: Voyage de Baudelaire
+   duree: '3:46'
+ - titre: Petite fille à la vanille
+   duree: '2:27'
+ - titre: Sept airs
+   duree: '2:38'
+
 musiciens:
- - Jérémie Arnold
- - Hadrien Bériot
- - Hugo Zanghi
- - Félix Foucart
- - Paul Amboise
- - Benjamin Dimerman
+ - Jérémie Arnold - chant
+ - Hadrien Bériot - guitares
+ - Hugo Zanghi - basse/contrebasse
+ - Félix Foucart - percussions
+ - Paul Amboise - Batterie
+ - Benjamin Dimerman - claviers
 
-Invités :
- - Johannes Le Pennec
+guests:
+ - Johannes Le Pennec - violoncelle sur “Dessine”
+ - Camille Ballon “Tom Fire“ - Enregistrement, réalisation et mixage.
+ - Benjamin Joubert - Mastering
+ - Greg Rud Pixel’z. - Conception et réalisation graphique
+ - Myqua - Photographies
 
-Le son :
- - Camille Ballon “Tom Fire“
- - Benjamin Joubert
 ---

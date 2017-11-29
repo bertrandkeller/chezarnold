@@ -11,6 +11,25 @@ body {
 	background-position: top center;
 }
 
+.nav-social {
+	a {
+		line-height: 0.8;
+		vertical-align: bottom;
+		&:hover {
+			color: #000;
+			svg {
+				fill: #333;
+			}
+		}
+	}
+	svg {
+		max-width: 15px;
+		max-height: 15px;
+		fill: #fff;
+		vertical-align: bottom;
+	}
+}
+
 .block-video {
 	margin-bottom: $base-line;
 }
@@ -70,4 +89,8 @@ body {
 		max-width: 120px;
 		max-height: 120px;
 	}
+}
+
+.block-song__element {
+	display: flex;
 }

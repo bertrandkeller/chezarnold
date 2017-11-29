@@ -8,7 +8,7 @@ weight: 10
 <section>
   <div id="form" class="container">
 		<div class="block">
-			<form action="https://formspree.io/bertrand.keller@gmail.com" method="POST">
+			<form action="https://formspree.io/arnoldetc@gmail.com" method="POST">
 			<fieldset>
 				<div class="form-input">
 					<label>Votre nom</label>

@@ -25,10 +25,23 @@ layout: default
     <a class="button button--small button--success" href="{{ service.url }}">{{ service.nom }}</a>
     {% endfor %}
     {% endif %}
+    {% if page.songs %}
+    <h2>Chansons</h2>
+    {% for song in page.songs %}
+      <span class="block-song__element">{{ forloop.index }} - {{ song.titre }} :: <span class="block-song__element">{{ song.duree }}</span></span>
+    {% endfor %}
+    </p>
+    {% endif %}
     {% if page.musiciens %}
     <h2>Les musiciens</h2>
     {% for musicien in page.musiciens %}
     {{ musicien }}<br>
+    {% endfor %}
+    {% endif%}
+    {% if page.guests %}
+    <h2>Invités</h2>
+    {% for guest in page.guests %}
+    {{ guest }}<br>
     {% endfor %}
     {% endif%}
   </article>

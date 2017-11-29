@@ -14,7 +14,8 @@ navigation: Albums
 {% else %}
 <img src="/assets/images/{{ album.title | slugify }}.jpg" alt="{{ album.title }}">
 {% endif %}
-{% if album.streaming %}<p><strong>Écoutez notre album en ligne</strong><br>
+{% if album.streaming %}
+<p><strong>Écoutez notre album en ligne</strong><br>
 {% for service in album.streaming %}
   <a href="{{ service.url }}">{{ service.nom }}</a>
 {% endfor %}
