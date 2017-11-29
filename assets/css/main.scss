@@ -67,6 +67,7 @@ body {
 	display: flex;
 	img {
 		margin-right: $base-line/2;
+		max-width: 120px;
 		max-height: 120px;
 	}
 }
