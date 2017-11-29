@@ -10,20 +10,21 @@ weight: 10
 		<div class="block">
 			<form action="https://formspree.io/bertrand.keller@gmail.com" method="POST">
 			<fieldset>
-				<legend>Contactez le groupe</legend>
-				<div class="form-group">
+				<div class="form-input">
 					<label>Votre nom</label>
 					<input type="text" class="form-control" placeholder="ex: Jean Delafontaine" name="nom">
 				</div>
-				<div class="form-group">
+				<div class="form-input">
 					<label>Votre Email</label>
 					<input type="text" class="form-control" placeholder="ex: jean.delafontaine@mail.com" name="_reply">
 				</div>
-				<div class="form-group-2">
+				<div class="form-input">
 					<label>Mon message à transmettre</label>
 					<textarea class="form-control" rows="3" placeholder="J'ai un sujet à vous soumettre" name="message"></textarea>
 				</div>
+				<div class="form-submit">
 				<button class="button button--warning" type="submit">Envoyer !</button>
+				</div>
 				</fieldset>
 			</form>
 		</div>
