@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chez Arnold
+title: Arnold
 email: bertrand.keller@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -45,3 +45,20 @@ defaults:
     values:
       layout: ""
 
+cloudinary:
+  cloud_name: dou0m7u5s
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1200
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width:40em) 40em, 90vw"
+
+algolia:
+  application_id: 'DGB0MVTOD1'
+  index_name: 'chezarnold'
+
+plugins:
+  - algoliasearch-jekyll
