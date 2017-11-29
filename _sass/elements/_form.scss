@@ -230,9 +230,6 @@ select[multiple] {
 button,
 .button {
   @include sassy-button;
-  & + & {
-    margin-left: $base-line/2;
-  }
 }
 
 .ap-input-icon {

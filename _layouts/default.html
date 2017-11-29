@@ -12,34 +12,44 @@ layout: default
     {% include header.html %}
 
     <main id="main">
-      {{ content }}
+        {% capture source %}
+        {% comment %}Inspired by https://www.sylvaindurand.org/ameliorer-la-typographie-avec-jekyll/{% endcomment %}
+        {% assign temp1 = content | split: '<pre' %}
+        {% for temp2 in temp1 %}
+          {% assign temp3 = temp2 | split: '</pre>' %}
+          {% if temp3.size == 2 %}
+            <pre{{ temp3.first | newline_to_br }}</pre>
+          {% endif %}
+          {% assign t = temp3.last %}
+          {% assign t = t | replace_regex: '(\d)(e|è)(r|me)?([\s.,])', '\1<sup>\2\3</sup>\4' %}
+
+          {% assign t = t | replace: '&ldquo;' , '«&nbsp;' %}
+          {% assign t = t | replace: '&rdquo;' , '&nbsp;»' %}
+          {% assign t = t | replace: '“' , '«&#8239;' %}
+          {% assign t = t | replace: '”' , '&#8239;»' %}
+
+          {% assign t = t | replace: ' ?!([^\w])' , '&#8239;&#8264;\1' %}
+          {% assign t = t | replace: ' !?([^\w])' , '&#8239;&#8265;\1' %}
+          {% assign t = t | replace: ' !!!([^\w]*)' , '&#8239;&#8252;\1' %}
+          {% assign t = t | replace: ' !!([^\w])' , '&#8239;&#8252;\1' %}
+          {% assign t = t | replace: ' x ' , ' &times;&nbsp;' %}
+
+          {% assign t = t | replace: ' :', '&nbsp;:' %}
+
+          {% assign t = t | replace: ' %', '&#8239;%' %}
+          {% assign t = t | replace: ' ;', '&#8239;;' %}
+          {% assign t = t | replace: ' !', '&#8239;!' %}
+          {% assign t = t | replace: ' ?', '&#8239;?' %}
+          {% assign t = t | replace: ' px', '&#8239;px' %}
+          {% assign t = t | replace: ' €', '&#8239;€' %}
+          {% assign t = t | replace: ' $', '&#8239;$' %}
+          {% assign t = t | replace: ' – ', '&#8239;–&#8239;' %}
+          {% assign t = t | replace: '...' , '&#8230;' %}
+
+          {{ t }}
+        {% endfor %}
+{% endcapture %}{{- source -}}
     </main>
-    <script src={{ "/assets/js/instantclick.min.js" | relative_url }}  data-no-instant></script>
-    <script data-no-instant>
-      InstantClick.init();
-    </script>
-    {% if page.videos %}
-    <link rel="stylesheet" href="/assets/css//basicLightbox.min.css">
-    <script src="/assets/js//basicLightbox.min.js"></script>
-    <script>
-      const getTargetHTML = function (elem) {
 
-        const id = elem.getAttribute('data-show-id')
-        const target = document.querySelector(`[data-id="${id}"]`)
-
-        return target.outerHTML
-
-      }
-
-      Array.prototype.forEach.call(document.querySelectorAll('[data-show-id]'), function (elem) {
-
-        const html = getTargetHTML(elem)
-
-        elem.onclick = basicLightbox.create(html).show
-
-      })
-
-    </script>
-    {% endif %}
   </body>
 </html>

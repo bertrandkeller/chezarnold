@@ -6,6 +6,7 @@
       <div class="site-header-top site-header-top__align">
           <nav class="nav-main nav-main__scroll" role="navigation">
             <ul>
+              <li><a href="/">Accueil</a></li>
               {% for page in site.html_pages %}
                 {% if page.navigation %}
                 <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.navigation }}</a></li>

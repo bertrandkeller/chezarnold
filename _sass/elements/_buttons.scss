@@ -58,13 +58,13 @@ $btn-schemes: (
   
     &:hover,
     &:active { // 2
-      background: call(nth($btn-hover, 1), $color, nth($btn-hover, 2));
+      background: call(get-function(nth($btn-hover, 1)), $color, nth($btn-hover, 2));
       color: #000 !important;
       background: $color-grey-light;
     }
   
     @if $btn-border != false { // 3
-      border-color: call(nth($btn-border, 1), $color, nth($btn-border, 2));
+      border-color: call(get-function(nth($btn-border, 1)), $color, nth($btn-border, 2));
     }
   }
 }

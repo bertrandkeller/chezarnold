@@ -21,4 +21,5 @@ group :jekyll_plugins do
     gem "jekyll-default-layout"
     gem "jekyll-tidy"
     gem 'jekyll-cloudinary'
+    gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
 end

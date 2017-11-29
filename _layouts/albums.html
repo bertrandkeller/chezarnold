@@ -6,18 +6,23 @@ layout: default
   <article class="post">
     <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
     {{ content | markdownify }}
-    <img src="/assets/images/{{ page.title | slugify }}.jpg">
+    {% if site.environment != 'development' %}
+    {% cloudinary /assets/images/{{ alpagebum.title | slugify }}.jpg alt="{{page.title}}" %}
+    {% else %}
+    <img src="/assets/images/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
+    {% endif %}
     {% if page.videos %}
     <h3>Voir les Clips</h3>
     {% for video in page.videos %}
     <iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
-    <a href="#" class="button button--success" data-show-id="1">{{ video.nom }}</a>
+    <a href="#" class="button button--small button--success" data-show-id="1">{{ video.nom }}</a>
     {% endfor %}
+    {% include popin.js %}
     {% endif %}
     {% if page.streaming %}
     <h2>Écoutez cet album en ligne</h2>
     {% for service in page.streaming %}
-    <a class="button button--success" href="{{ service.url }}">{{ service.nom }}</a>
+    <a class="button button--small button--success" href="{{ service.url }}">{{ service.nom }}</a>
     {% endfor %}
     {% endif %}
     {% if page.musiciens %}
