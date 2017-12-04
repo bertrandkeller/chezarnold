@@ -18,8 +18,3 @@ https://github.com/algolia/jekyll-algolia
 https://basiclightbox.electerious.com/
 https://github.com/squeral/lightbox
 
-##regex
-([0-9]+)/+([0-9]+)/+([0-9]+)
-$3-$2-$1 
-
-liste de chansons
