@@ -1,6 +1,6 @@
 # Site du groupe Arnold
 
-Développement du site du groupe de Jérémy Arnold avec Jekyll
+Développement du site du groupe de Jérémie Arnold avec Jekyll
 
 ## Collections
 * Actualités
