@@ -23,4 +23,5 @@ group :jekyll_plugins do
     gem 'jekyll-cloudinary'
     gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
     gem 'jekyll-paginate-v2'
+    gem "overkyll-jekyll-theme"
 end

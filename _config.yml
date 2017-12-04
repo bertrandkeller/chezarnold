@@ -21,6 +21,8 @@ url: "http://chezarnold.netlify.com/"
 twitter_username: bertrandkeller
 github_username:  bertrandkeller
 
+theme: overkyll-jekyll-theme
+
 algolia:
   application_id: 'DGB0MVTOD1'
   index_name: 'chezarnold'
