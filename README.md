@@ -15,6 +15,6 @@ Développement du site du groupe de Jérémie Arnold avec Jekyll
 https://github.com/algolia/jekyll-algolia
 
 ## Lightbox
-https://basiclightbox.electerious.com/
+https://basiclightbox.electerious.com/  
 https://github.com/squeral/lightbox
 
