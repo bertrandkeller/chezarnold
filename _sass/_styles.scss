@@ -1,0 +1,150 @@
+
+body {
+	background: #efefef;
+	line-height: $base * $ms2;
+}
+
+.site-header-hero {
+	background-position: top center;
+}
+
+.nav-main {
+	a {
+		text-shadow: 1px 1px #000;
+	}
+}
+
+.nav-social {
+	padding: 0 0 $base-line/2;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	ul {
+		text-align: center;
+	}
+	a {
+		line-height: 0.8;
+		vertical-align: bottom;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	svg {
+		max-width: 15px;
+		max-height: 15px;
+		fill: #fff;
+		vertical-align: bottom;
+	}
+}
+
+.post {
+	img, iframe, embed {
+		display: block;
+		margin: 1em auto;
+	}
+}
+
+time {
+	font-weight: bold;
+	span {
+		margin: 0 0.5em;
+		padding: 0.1em $base-line/2;
+		color: #fff;
+		background: $color-primary;
+		border-radius: 4px;
+	}
+}
+
+.block-video {
+	margin-bottom: $base-line;
+}
+
+.block-timeline {
+	padding: $base-line;
+	background: #fff;	
+	h2 {
+		font-size: $bigger;
+	}
+}
+
+.block-timeline__grid {
+	@include grid(2);
+	grid-gap: 0;
+}
+
+.block-timeline__element {
+	padding: $base-line;
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	&:last-child {
+		border-right: 1px solid rgba(0,0,0,0.1);
+	}
+}
+
+.block-album {
+	@supports (display:flex) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		> * {
+			flex: 0 0 24.5%;
+		}
+	}
+	@supports (display:grid) {
+		@include grid(4);
+	}
+}
+
+.block-album__element {
+	position: relative;
+	background: #333;
+	a {
+		display: block;
+		&:hover:after {
+			position: absolute;
+			top: 0;
+			let: 0;
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.2);
+		}
+		&:hover h3 {
+			bottom: 0.1em;
+		}
+	}
+	img {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+    object-fit: cover;
+	}
+	h3 {
+		position: absolute;
+		left: $base-line/4;
+		right: $base-line/4;
+		bottom: 0;
+		font-size: $normal;
+		text-decoration: none;
+		color: #fff;
+		text-shadow: 1px 1px #000;
+		transition: bottom 0.2s ease;
+	}
+}
+
+.block-album-page {
+	@include grid(2);
+}
+
+.block-album-page__element-int {
+	display: flex;
+	img {
+		margin-right: $base-line/2;
+		max-width: 120px;
+		max-height: 120px;
+	}
+}
+
+.block-song__element {
+	display: flex;
+}

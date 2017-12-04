@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
-ruby "2.3.0"
+ruby "2.3.1"
 
 require 'json'
 require 'open-uri'
-gem "rack-jekyll"
 
 group :development do
     gem 'foreman'
@@ -23,4 +22,5 @@ group :jekyll_plugins do
     gem "jekyll-tidy"
     gem 'jekyll-cloudinary'
     gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
+    gem 'jekyll-paginate-v2'
 end

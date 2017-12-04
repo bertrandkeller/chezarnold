@@ -9,7 +9,7 @@ namespace :serve do
   desc "Serve development Jekyll site locally"
   task :dev do
     puts "Starting up development Jekyll site server..."
-    system "bundle exec jekyll serve --config _config.yml,_config_dev.yml --profile"
+    system "bundle exec jekyll serve --config _config.yml,_config_dev.yml --limit_posts 3 --profile"
   end
 
   desc "Serve production Jekyll site locally"

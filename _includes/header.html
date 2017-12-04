@@ -9,7 +9,9 @@
               <li><a href="/">Accueil</a></li>
               {% for page in site.html_pages %}
                 {% if page.navigation %}
+                {% if page.pagination_info.curr_page == 1 or page.path != "index.html" %}
                 <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.navigation }}</a></li>
+                {% endif %}
                 {% endif %}
               {% endfor %}
           </nav>
@@ -23,7 +25,7 @@
         <ul>
           <li>
             <a href="https://fr-fr.facebook.com/Arnold-318034885406/">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path d="M36.963 22.048c.092-3.345-.525-8.003.516-9.593 1.9-2.91 9.495-2.154 9.495-2.154V0c-11.982 0-15.904-.5-20.016 3.675-3.66 3.715-3.772 11.01-4.073 18.375h-5.872V32.12h5.938c-.002 10.504.003 22.016 0 31.884h13.954v-32.01h8.042c.625-3.385 1.235-6.036 2.087-9.947H36.963z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="64" height="64" viewBox="0 0 64 64"><path d="M36.963 22.048c.092-3.345-.525-8.003.516-9.593 1.9-2.91 9.495-2.154 9.495-2.154V0c-11.982 0-15.904-.5-20.016 3.675-3.66 3.715-3.772 11.01-4.073 18.375h-5.872V32.12h5.938c-.002 10.504.003 22.016 0 31.884h13.954v-32.01h8.042c.625-3.385 1.235-6.036 2.087-9.947H36.963z"/></svg>
               Facebook
             </a>
           </li>

@@ -10,9 +10,9 @@ navigation: Albums
 <h2><a href="{{ album.url }}">{{ album.title }}</a> - {{ album.annee }}</h2>
 <div class="block-album-page__element-int">
 {% if site.environment != 'development' %}
-{% cloudinary /assets/images/{{ album.title | slugify }}.jpg alt="{{album.title}}" %}
+{% cloudinary /assets/images/{{ album.title | slugify }}-small.jpg alt="{{album.title}}" %}
 {% else %}
-<img src="/assets/images/{{ album.title | slugify }}.jpg" alt="{{ album.title }}">
+<img src="/assets/images/{{ album.title | slugify }}-small.jpg" alt="{{ album.title }}">
 {% endif %}
 {% if album.streaming %}
 <p><strong>Écoutez notre album en ligne</strong><br>

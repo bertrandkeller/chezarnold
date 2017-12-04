@@ -1,8 +1,13 @@
 {% if videos %}
-<div class="block-video">
+<div class="block-album">
 {% for video in videos %}
+<div class="block-album__element">
 <iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
-<a href="#" class="button button--small button--success" data-show-id="1">Voir le clip de {{ video.nom }}</a>
+	<a href="#" data-show-id="1">
+		<img src="http://i3.ytimg.com/vi/{{ video.url }}/mqdefault.jpg" />
+		<h3>{{ video.nom }}</h3>
+	</a>
+</div>
 {% endfor %}
 </div>
 {% include popin.js %}
