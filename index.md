@@ -45,7 +45,7 @@ layout: default
 <div class="wrapper">
 	<h2>Nos concerts</h2>
 	<div class="block-timeline__grid">
-	{% assign concerts =  site.data.concerts | sort:'date' %}
+	{% assign concerts =  site.data.concerts.concerts | sort:'date' %}
 	{% assign counter = 0 %}
   {% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}

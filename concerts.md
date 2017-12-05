@@ -2,7 +2,7 @@
 title: Concerts
 ---
 
-{% assign concerts =  site.data.concerts | sort:'date' %}
+{% assign concerts =  site.data.concerts.concerts | sort:'date' %}
 {% capture year %}{{ site.time | date: '%Y' }}{% endcapture %}
 <h2>{{year | plus: '1'}}</h2>
 {% for concert in concerts reversed %}
