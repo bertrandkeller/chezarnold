@@ -20,6 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chezarnold.netlify.com/"
 twitter_username: bertrandkeller
 github_username:  bertrandkeller
+environment: production
 
 theme: overkyll-jekyll-theme
 permalink: pretty
