@@ -15,7 +15,7 @@ layout: default
     {% endif %}
     {{ content | markdownify }}
     {% assign videos = page.videos %}
-    {% if page.videos %}
+    {% if videos %}
     <h2>Vidéos</h2>
     {% endif %}
     {% include video.html %}
