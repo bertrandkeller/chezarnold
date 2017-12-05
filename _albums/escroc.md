@@ -50,10 +50,8 @@ musiciens:
  - Paul Amboise
  - Benjamin Dimerman
 
-Invités :
+guests :
  - Johannes Le Pennec
-
-Le son :
  - Camille Ballon “Tom Fire“
  - Benjamin Joubert
 ---

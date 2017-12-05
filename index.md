@@ -10,6 +10,9 @@ layout: default
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {{ post.content }}
 {% assign videos = post.videos %}
+{% if post.videos %}
+	<h2>Vidéos</h2>
+{% endif %}
 {% include video.html %}
 {% endfor %}
 </div>
@@ -51,6 +54,9 @@ layout: default
 	{% if concertdate > sitetime %}
 	{% assign counter = counter | plus: 1 %}
 	<div class="block-timeline__element">
+	{% if concert.image %}
+	<img src="/assets/{{ concert.image }}">
+	{% endif %}
 	<p><time class="date" datetime="{{ concert.date | date: "%Y%m%d" }}">{{ concert.date }}</time></p>
 	<p>{{ concert.lieu }}{% if concert.lien %}<br><a href="{{ concert.lien }}">liens</a>{% endif %}</p>
 	</div>
