@@ -29,18 +29,21 @@ collections: # A list of collections the CMS should be able to edit
       - name: videos
         label: Videos
         widget: list
+        required: false
         fields:
           - {label: Nom, name: name, widget: string, required: false}
           - {label: Url, name: url, widget: string, required: false}
       - name: streaming
         label: Streaming
         widget: list
+        required: false
         fields:
           - {label: Nom, name: name, widget: string, required: false}
           - {label: Url, name: url, widget: string, required: false}
       - name: songs
         label: Chansons
         widget: list
+        required: false
         fields:
           - {label: Titre, name: titre, widget: string, required: false}
           - {label: Durée, name: duree, widget: string, required: false}
@@ -49,8 +52,8 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: false
     files:
-      - name: "Concerts"
-        label: "Concerts"
+      - name: "Liste de Concerts"
+        label: "Concertslist"
         file: "_data/concerts.yml"
         description: "Dates de concerts"
         fields:
