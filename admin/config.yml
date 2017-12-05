@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: activitessaintnicaise/activitessaintnicaise.github.com # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Actualités" # Used in the UI, ie.: "New Post"
+    folder: "_posts/"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+  - name: "albums" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Albums" # Used in the UI, ie.: "New Post"
+    folder: "_albums"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Année", name: "annee", widget: "number"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+      - {label: Musiciens, name: musiciens, widget: list}
+      - {label: Invités, name: guests, widget: list}
+      - name: videos
+        label: Videos
+        widget: list
+        fields:
+          - {label: Nom, name: name, widget: string, required: false}
+          - {label: Url, name: url, widget: string, required: false}
+      - name: streaming
+        label: Streaming
+        widget: list
+        fields:
+          - {label: Nom, name: name, widget: string, required: false}
+          - {label: Url, name: url, widget: string, required: false}
+      - name: songs
+        label: Chansons
+        widget: list
+        fields:
+          - {label: Titre, name: titre, widget: string, required: false}
+          - {label: Durée, name: duree, widget: string, required: false}
+  - name: "Concerts"
+    label: "concerts"
+    editor:
+      preview: false
+    files:
+      - name: "Prix"
+        label: "Prix"
+        file: "_data/concerts.yml"
+        description: "Dates de concerts"
+        fields:
+          - name: concert
+            label: Concert
+            widget: list
+            fields:
+              - {label: Date, name: date, widget: date, required: false}
+              - {label: Lien, name: lien, widget: string, required: false}
+              - {label: Lieu, name: lieu, widget: string, required: false}
