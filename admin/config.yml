@@ -52,15 +52,16 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: false
     files:
-      - name: "Liste de Concerts"
-        label: "Concertslist"
+      - name: "concerts"
+        label: "concerts"
         file: "_data/concerts.yml"
         description: "Dates de concerts"
         fields:
-          - name: Concerts
-            label: concertss
+          - name: 'Concerts'
+            label: 'concerts'
             widget: list
             fields:
               - {label: Date, name: date, widget: date, required: false}
               - {label: Lien, name: lien, widget: string, required: false}
               - {label: Lieu, name: lieu, widget: string, required: false}
+
