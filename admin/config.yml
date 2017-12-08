@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - name: 'concerts'
             label: 'Concerts'
-            widget: list 
+            widget: list
             fields:
               - {label: Date, name: date, widget: date, required: false}
               - {label: Lien, name: lien, widget: string, required: false}
