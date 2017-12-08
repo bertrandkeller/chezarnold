@@ -47,21 +47,43 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Titre, name: titre, widget: string, required: false}
           - {label: Durée, name: duree, widget: string, required: false}
-  - name: "Concerts"
-    label: "Concerts"
-    editor:
-      preview: false
-    files:
-      - name: "concerts"
-        label: "concerts"
-        file: "_data/concerts.yml"
-        description: "Dates de concerts"
+  - name: "concerts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Concerts" # Used in the UI, ie.: "New Post"
+    folder: "_concerts"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - name: dateconcerts
+        label: Date de concerts
+        widget: list
+        required: false
         fields:
-          - name: 'Concerts'
-            label: 'concerts'
-            widget: list
-            fields:
-              - {label: Date, name: date, widget: date, required: false}
-              - {label: Lien, name: lien, widget: string, required: false}
-              - {label: Lieu, name: lieu, widget: string, required: false}
+          - {label: Date, name: date, widget: date, required: false}
+          - {label: Lien, name: lien, widget: string, required: false}
+          - {label: Lieu, name: lieu, widget: string, required: false}
+      - name: songs
+        label: Chansons
+        widget: list
+        required: false
+        fields:
+          - {label: Titre, name: titre, widget: string, required: false}
+          - {label: Durée, name: duree, widget: string, required: false}
+
+  # - name: "Concerts"
+  #   label: "Concerts"
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - name: "concerts"
+  #       label: "concerts"
+  #       file: "_data/concerts.yml"
+  #       description: "Dates de concerts"
+  #       fields:
+  #         - {label: "Title", name: "title", widget: "string"}
+  #         - name: 'Concerts'
+  #           label: 'concerts'
+  #           widget: list
+  #           fields:
+  #             - {label: Date, name: date, widget: date, required: false}
+  #             - {label: Lien, name: lien, widget: string, required: false}
+  #             - {label: Lieu, name: lieu, widget: string, required: false}
 
