@@ -22,23 +22,23 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Année", name: "annee", widget: "number"}
-      - {label: "Contenu", name: "body", widget: "markdown"}
-      - {label: Musiciens, name: musiciens, widget: list}
-      - {label: Invités, name: guests, widget: list}
+      - {label: "Année", name: "annee", widget: "number", required: false}
+      - {label: "Contenu", name: "body", widget: "markdown", required: false}
+      - {label: Musiciens, name: musiciens, widget: list, required: false}
+      - {label: Invités, name: guests, widget: list, required: false}
       - name: videos
         label: Videos
         widget: list
         required: false
         fields:
-          - {label: Nom, name: name, widget: string, required: false}
+          - {label: Nom, name: nom, widget: string, required: false}
           - {label: Url, name: url, widget: string, required: false}
       - name: streaming
         label: Streaming
         widget: list
         required: false
         fields:
-          - {label: Nom, name: name, widget: string, required: false}
+          - {label: Nom, name: nom, widget: string, required: false}
           - {label: Url, name: url, widget: string, required: false}
       - name: songs
         label: Chansons
