@@ -61,7 +61,7 @@ collections: # A list of collections the CMS should be able to edit
             label: 'Concerts'
             widget: list
             fields:
-              - {label: Date, name: date, widget: string, required: false}
+              - {label: Date, name: datee, widget: string, required: false}
               - {label: Lien, name: lien, widget: string, required: false}
               - {label: Lieu, name: lieu, widget: string, required: false}
 
