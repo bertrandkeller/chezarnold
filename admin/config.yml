@@ -64,7 +64,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Date"
                 name: "date"
                 widget: "date"
-                format: "YYYY-MM-DD"
+                format: "MMM Do YY"
               - {label: Lien, name: lien, widget: string, required: false}
               - {label: Lieu, name: lieu, widget: string, required: false}
 
