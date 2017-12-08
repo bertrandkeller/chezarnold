@@ -57,9 +57,13 @@ collections: # A list of collections the CMS should be able to edit
         widget: list
         required: false
         fields:
-          - {label: Date, name: date, widget: date, required: false}
           - {label: Lien, name: lien, widget: string, required: false}
           - {label: Lieu, name: lieu, widget: string, required: false}
+          - label: "Birthdate"
+            name: "birthdate"
+            widget: "date"
+            default: ""
+            format: "MMM Do YY"
       - name: songs
         label: Chansons
         widget: list
@@ -68,22 +72,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Titre, name: titre, widget: string, required: false}
           - {label: Durée, name: duree, widget: string, required: false}
 
-  # - name: "Concerts"
-  #   label: "Concerts"
-  #   editor:
-  #     preview: false
-  #   files:
-  #     - name: "concerts"
-  #       label: "concerts"
-  #       file: "_data/concerts.yml"
-  #       description: "Dates de concerts"
-  #       fields:
-  #         - {label: "Title", name: "title", widget: "string"}
-  #         - name: 'Concerts'
-  #           label: 'concerts'
-  #           widget: list
-  #           fields:
-  #             - {label: Date, name: date, widget: date, required: false}
-  #             - {label: Lien, name: lien, widget: string, required: false}
-  #             - {label: Lieu, name: lieu, widget: string, required: false}
+  - name: "Concerts"
+    label: "Concerts"
+    editor:
+      preview: false
+    files:
+      - name: "concerts"
+        label: "concerts"
+        file: "_data/concerts.yml"
+        description: "Dates de concerts"
+        fields:
+          - name: 'concert'
+            label: 'Concert'
+            widget: list
+            fields:
+              - label: "Date"
+                name: "date"
+                widget: "date"
+                default: ""
+                format: "MMM Do YY"
+              - {label: Lien, name: lien, widget: string, required: false}
+              - {label: Lieu, name: lieu, widget: string, required: false}
 
