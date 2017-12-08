@@ -47,50 +47,24 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Titre, name: titre, widget: string, required: false}
           - {label: Durée, name: duree, widget: string, required: false}
-  - name: "concerts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Concerts" # Used in the UI, ie.: "New Post"
-    folder: "_concerts"
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - name: dateconcerts
-        label: Date de concerts
-        widget: list
-        required: false
-        fields:
-          - {label: Lien, name: lien, widget: string, required: false}
-          - {label: Lieu, name: lieu, widget: string, required: false}
-          - label: "Birthdate"
-            name: "birthdate"
-            widget: "date"
-            default: ""
-            format: "MMM Do YY"
-      - name: songs
-        label: Chansons
-        widget: list
-        required: false
-        fields:
-          - {label: Titre, name: titre, widget: string, required: false}
-          - {label: Durée, name: duree, widget: string, required: false}
-
-  - name: "Concerts"
+  - name: "concerts"
     label: "Concerts"
     editor:
       preview: false
     files:
       - name: "concerts"
         label: "concerts"
-        file: "_data/concerts.yml"
+        file: "_data/concert.yml"
         description: "Dates de concerts"
         fields:
-          - name: 'concert'
-            label: 'Concert'
+          - name: 'concerts'
+            label: 'Concerts'
             widget: list
             fields:
               - label: "Date"
                 name: "date"
                 widget: "date"
-                default: ""
-                format: "MMM Do YY"
+                format: "YYYY-MM-DD"
               - {label: Lien, name: lien, widget: string, required: false}
               - {label: Lieu, name: lieu, widget: string, required: false}
 
