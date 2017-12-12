@@ -8,10 +8,10 @@ musiciens:
 guests:
   - pas d'invités
 videos:
-  - name: YOUTUBE
+  - name: Youtube
     url: MseEM7Hnkiw
 streaming:
-  - name: DEEZER
+  - name: Deezer
     url: 'http://www.deezer.com/en/album/49287102'
 songs:
   - duree: '2:47'
