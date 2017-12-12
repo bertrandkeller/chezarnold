@@ -1,17 +1,17 @@
 ---
-title: JE CONSOMME
-annee: '2017'
+title: Je consomme
+annee: 2017
 musiciens:
   - Jérémie Arnold - Guitare voix
   - Julien Chiquet - Guitares
   - Félix Foucart - Percussions
 guests:
-  - pas d'invités
+  - 'pas d’invités'
 videos:
-  - name: Youtube
+  - nom: Youtube
     url: MseEM7Hnkiw
 streaming:
-  - name: Deezer
+  - nom: Deezer
     url: 'http://www.deezer.com/en/album/49287102'
 songs:
   - duree: '2:47'
