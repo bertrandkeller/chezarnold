@@ -49,7 +49,7 @@ layout: default
 	{% assign counter = 0 %}
   {% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}
-	{% assign concertdate = concert.date | date: "%s" %}
+	{% assign concertdate = concert.concertdate | date: "%s" %}
 	{% if counter < 2 %}
 	{% if concertdate > sitetime %}
 	{% assign counter = counter | plus: 1 %}
@@ -57,7 +57,7 @@ layout: default
 	{% if concert.image %}
 	<img src="/assets/{{ concert.image }}">
 	{% endif %}
-	<p><time class="date" datetime="{{ concert.date | date: "%Y%m%d" }}">{{ concert.date }}</time></p>
+	<p><time class="date" datetime="{{ concert.concertdate | date: "%Y%m%d" }}">{{ concert.concertdate }}</time></p>
 	<p>{{ concert.lieu }}{% if concert.lien %}<br><a href="{{ concert.lien }}">liens</a>{% endif %}</p>
 	</div>
 	{% endif %}
@@ -68,15 +68,15 @@ layout: default
 	{% assign counter = 0 %}
 	{% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}
-	{% assign concertdate = concert.date | date: "%s" %}
+	{% assign concertdate = concert.concertdate | date: "%s" %}
 	{% if concertdate > sitetime %}
 	{% assign counter = counter | plus: 1 %}
 	{% if counter > 2 %}
-	<time>{{ concert.date }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">liens</a>{% endif %}<br>
+	<time>{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">liens</a>{% endif %}<br>
 	{% endif %}
 	{% endif %}
 	{% endfor %}
 	</p>
-	<p>> <a href="/concerts.html">Tous nos concerts</a></p>
+	<p>> <a href="/concerts/">Tous nos concerts</a></p>
 </div>
 </div>
