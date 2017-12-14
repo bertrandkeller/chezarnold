@@ -8,7 +8,9 @@ layout: default
     {{ content | markdownify }}
     {% if site.environment != 'development' %}
     {% cloudinary /assets/images/{{ page.title | slugify }}.jpg alt="{{ page.title }}" %}
+    {% cloudinary {{ page.image }} alt="{{ page.title }}" %}
     {% else %}
+    <img src="{{ page.image }}" alt="{{ page.title }}">
     <img src="/assets/images/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
     {% endif %}
     {% if page.videos %}

@@ -8,6 +8,9 @@ layout: default
 <div>
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+{% if page.image %}
+  <img src="{{ page.image }}" alt="{{ page.title }}">
+{% endif %}
 {{ post.content }}
 {% assign videos = post.videos %}
 {% if post.videos %}
@@ -17,7 +20,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/actualites.html">Toutes nos actualités</a></p>
+<p>> <a href="/actualites/">Toutes nos actualités</a></p>
 </div>
 
 <div class="wrapper">
@@ -38,7 +41,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/albums.html">Tous nos albums</a></p>
+<p>> <a href="/albums/">Tous nos albums</a></p>
 </div>
 
 <div class="block-timeline">

@@ -1,5 +1,6 @@
 ---
 title: Concerts
+navigation: Concerts
 ---
 
 {% assign concerts =  site.data.concerts.concerts | sort:'concertdate' %}
@@ -11,5 +12,6 @@ title: Concerts
       {% capture year %}{{ year | minus:'1' }}{% endcapture %}
 <h2 class="date">{{ concert.concertdate | date: "%Y" }}</h2>
   {% endif %}
-<span><strong>{{ concert.concertdate }}</strong> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">liens</a>{% endif %}</span>
+<span><strong>{{ concert.concertdate | date: "%-d" }} {% include mois.html page=concert.concertdate %} {{ concert.concertdate | date: "%Y" }}
+</strong> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">liens</a>{% endif %}</span>
 {% endfor %}

@@ -1,6 +1,5 @@
 ---
 title: Les actualités d'Arnold
-navigation: Actualités
 permalink: '/actualites/'
 pagination: 
   enabled: true
