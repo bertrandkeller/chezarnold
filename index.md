@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/actualites/">Toutes nos actualités</a></p>
+<p>> <a href="/actualites/">Toutes les actualités</a></p>
 </div>
 
 <div class="wrapper">
@@ -41,14 +41,15 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/albums/">Tous nos albums</a></p>
+<p>> <a href="/albums/">Tous les albums</a></p>
 </div>
 
 <div class="block-timeline">
 <div class="wrapper">
-	<h2>Nos concerts</h2>
+	<h2>Concerts</h2>
 	<div class="block-timeline__grid">
 	{% assign concerts =  site.data.concerts.concerts | sort:'date' %}
+	<p>Corriger dates</p>
 	{% assign counter = 0 %}
   {% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}
@@ -75,11 +76,11 @@ layout: default
 	{% if concertdate > sitetime %}
 	{% assign counter = counter | plus: 1 %}
 	{% if counter > 2 %}
-	<time>{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">liens</a>{% endif %}<br>
+	<time>{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
 	{% endif %}
 	{% endif %}
 	{% endfor %}
 	</p>
-	<p>> <a href="/concerts/">Tous nos concerts</a></p>
+	<p>> <a href="/concerts/">Tous les concerts</a></p>
 </div>
 </div>
