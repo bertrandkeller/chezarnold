@@ -47,37 +47,13 @@ layout: default
 <div class="block-timeline">
 <div class="wrapper">
 	<h2>Concerts</h2>
-	<div class="block-timeline__grid">
-	{% assign concerts =  site.data.concerts.concerts | sort:'date' %}
-	<p>Corriger dates</p>
-	{% assign counter = 0 %}
-  {% for concert in concerts %}
-	{% assign sitetime = site.time | date: "%s" %}
-	{% assign concertdate = concert.concertdate | date: "%s" %}
-	{% if counter < 2 %}
-	{% if concertdate > sitetime %}
-	{% assign counter = counter | plus: 1 %}
-	<div class="block-timeline__element">
-	{% if concert.image %}
-	<img src="/assets/{{ concert.image }}">
-	{% endif %}
-	<p><time class="date" datetime="{{ concert.concertdate | date: "%Y%m%d" }}">{{ concert.concertdate }}</time></p>
-	<p>{{ concert.lieu }}{% if concert.lien %}<br><a href="{{ concert.lien }}">liens</a>{% endif %}</p>
-	</div>
-	{% endif %}
-	{% endif %}
-	{% endfor %}
-	</div>
 	<p>
-	{% assign counter = 0 %}
+  {% assign concerts = site.data.concerts.concerts sort:'concertdate'  %}
 	{% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}
 	{% assign concertdate = concert.concertdate | date: "%s" %}
 	{% if concertdate > sitetime %}
-	{% assign counter = counter | plus: 1 %}
-	{% if counter > 2 %}
 	<time>{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
-	{% endif %}
 	{% endif %}
 	{% endfor %}
 	</p>

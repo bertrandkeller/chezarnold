@@ -2,9 +2,9 @@
 title: Les concerts d'Arnold
 dateconcerts:
   - date: 2018-04-14
-    lieu: Manoir des Marronniers, Sully (14)
+    lieu: Manoir des Marronnierse, Sully (14)
   - date: 2018-03-17
-    lieu: Concert pour l’asso Les Temps d’Art, Nogent sur Oise (60)
+    lieu: Concert pour l’association Les Temps d’Art, Nogent sur Oise (60)
   - date: 2018-03-03
     lieu: Concert au Café de la Paix, Auvers-sur-Oise (95)
     lien: https://www.facebook.com/Caf%C3%A9-de-la-Paix-Auvers-141362509242435/

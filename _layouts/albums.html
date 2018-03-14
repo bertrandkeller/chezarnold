@@ -28,7 +28,7 @@ layout: default
     {% if page.songs %}
     <h2>Chansons</h2>
     {% for song in page.songs %}
-      <span class="block-song__element">{{ forloop.index }} - {{ song.titre }} :: <span class="block-song__element">{{ song.duree }}</span></span>
+      <span class="block-song__element">{{ forloop.index }} - {{ song.titre }}</span>
     {% endfor %}
     </p>
     {% endif %}

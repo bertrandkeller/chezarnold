@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby "2.3.1"
 
 require 'json'
 require 'open-uri'
@@ -21,7 +20,6 @@ group :jekyll_plugins do
     gem "jekyll-default-layout"
     gem "jekyll-tidy"
     gem 'jekyll-cloudinary'
-    gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
-    gem 'jekyll-paginate-v2'
+    gem 'jekyll-algolia', '~> 1.0'
     gem "overkyll-jekyll-theme"
 end

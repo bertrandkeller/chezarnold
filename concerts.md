@@ -5,7 +5,6 @@ navigation: Concerts
 
 {% assign concerts =  site.data.concerts.concerts | sort:'concertdate' %}
 {% capture year %}{{ site.time | date: '%Y' }}{% endcapture %}
-<h2>{{year | plus: '1'}}</h2>
 {% for concert in concerts reversed %}
   {% capture previousyear %}{{ concert.concertdate | date: '%Y' }}{% endcapture %}
   {% if year == previousyear %}
