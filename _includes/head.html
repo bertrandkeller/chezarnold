@@ -13,14 +13,14 @@
 
   <style type="text/css">
     {% capture include_to_scssify %}
-      {% include base.scss %}
+      {% include_cached base.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
   <script>
-    {% include loadCSS.js %}
+    {% include_cached loadCSS.js %}
     loadCSS("{{ '/assets/css/main.css' | relative_url }}");
-    {% include localfont.js %}
+    {% include_cached localfont.js %}
   </script>
   <noscript><link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"></noscript>
   {% include favicons.html %}

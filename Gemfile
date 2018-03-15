@@ -14,11 +14,12 @@ group :test do
 end
 
 group :jekyll_plugins do
-    gem 'jekyll-sitemap'
+    #gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem "jekyll-seo-tag"
     gem "jekyll-default-layout"
     gem "jekyll-tidy"
+    gem "jekyll-include-cache"
     gem 'jekyll-cloudinary'
     gem 'jekyll-algolia', '~> 1.0'
     gem "overkyll-jekyll-theme"

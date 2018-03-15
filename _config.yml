@@ -48,6 +48,11 @@ collections:
 
 defaults:
   - scope:
+     path: "_posts"
+    values:
+     layout: "post"
+     permalink: "actualité/:year/:month/:day/"
+  - scope:
       path: "_albums"
     values:
       layout: "albums"
