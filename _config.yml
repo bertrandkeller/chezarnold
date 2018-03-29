@@ -72,5 +72,5 @@ cloudinary:
       steps: 5
       sizes: "(min-width:40em) 40em, 90vw"
 
-plugins:
-  - jekyll-algolia
+# plugins:
+#   - jekyll-algolia

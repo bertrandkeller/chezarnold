@@ -21,6 +21,6 @@ group :jekyll_plugins do
     gem "jekyll-tidy"
     gem "jekyll-include-cache"
     gem 'jekyll-cloudinary'
-    gem 'jekyll-algolia', '~> 1.0'
+    #gem 'jekyll-algolia', '~> 1.0'
     gem "overkyll-jekyll-theme"
 end
