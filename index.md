@@ -48,12 +48,12 @@ layout: default
 <div class="wrapper">
 	<h2>Concerts</h2>
 	<p>
-  {% assign concerts = site.data.concerts.concerts sort:'concertdate'  %}
+  {% assign concerts = site.data.concerts.concerts | sort:'concertdate'%}
 	{% for concert in concerts %}
 	{% assign sitetime = site.time | date: "%s" %}
 	{% assign concertdate = concert.concertdate | date: "%s" %}
 	{% if concertdate > sitetime %}
-	<time>{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
+	<time class="date" datetime="{{ concert.concertdate | date: "%Y%m%d" }}">{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
 	{% endif %}
 	{% endfor %}
 	</p>
