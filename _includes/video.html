@@ -2,8 +2,8 @@
 <div class="block-album">
 {% for video in videos %}
 <div class="block-album__element">
-<iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="1"></iframe>
-	<a href="#" data-show-id="1">
+<iframe width="1200" height="600" src="https://www.youtube.com/embed/{{ video.url }}" frameborder="0" allowfullscreen data-basicLightbox data-id="{{ forloop.index }}"></iframe>
+	<a href="#" data-show-id="{{ forloop.index }}">
 		<img src="http://i3.ytimg.com/vi/{{ video.url }}/mqdefault.jpg" />
 		<h3>{{ video.nom }}</h3>
 	</a>
