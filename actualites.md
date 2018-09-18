@@ -13,3 +13,7 @@ pagination:
 	{% include video.html %}
 	{% endfor %}
 </div>
+
+<div>
+  <a href="/actualites-toutes">Toutes les actualités - archives</a>
+</div>

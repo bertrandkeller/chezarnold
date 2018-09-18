@@ -52,6 +52,6 @@ musiciens:
 
 guests :
  - Johannes Le Pennec
- - Camille Ballon “Tom Fire“
+ - Camille Ballon “Tom Fire”
  - Benjamin Joubert
 ---

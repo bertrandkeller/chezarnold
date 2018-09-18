@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/actualites/">Toutes les actualités</a></p>
+<p>> <a href="/actualites/">Les dernières actualités</a></p>
 </div>
 
 <div class="wrapper">
