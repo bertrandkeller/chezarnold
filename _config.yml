@@ -25,6 +25,19 @@ environment: production
 theme: overkyll-jekyll-theme
 permalink: pretty
 
+social:
+  name: Arnold
+  links:
+    - https://fr-fr.facebook.com/Arnold-318034885406/
+
+image:
+  path: /assets/images/background-arnold.jpg
+  height: 100
+  width: 100
+
+facebook:
+  publisher: 318034885406
+
 algolia:
   application_id: 'DGB0MVTOD1'
   index_name: 'chezarnold'

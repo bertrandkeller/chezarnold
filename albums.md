@@ -17,7 +17,7 @@ navigation: Albums
 {% if album.streaming %}
 <p><strong>Écoutez notre album en ligne</strong><br>
 {% for service in album.streaming %}
-  <a href="{{ service.url }}">{{ service.nom }}</a>
+  <a href="{{ service.url }}" target="_blank" rel="noopener">{{ service.nom }}</a>
 {% endfor %}
 </p>
 {% endif %}

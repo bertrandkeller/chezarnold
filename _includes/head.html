@@ -8,6 +8,8 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="preload" href="/assets/css/fonts.css" as="stylesheet">
+  <link rel="preload" href="/assets/css/main.css" as="stylesheet">
   <link rel="preload" href="/assets/images/background-arnold.jpg" as="image">
   <style>
   .site-header-hero {
@@ -31,4 +33,5 @@
   <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"></noscript>
   {% include favicons.html %}
+  {% seo title="false" %}
 </head>
