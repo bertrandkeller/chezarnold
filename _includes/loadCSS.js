@@ -34,7 +34,7 @@ Licensed MIT
 
     // Inject link
       // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
-      // Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+      // Note: `insertBefore` is used instead of `appendChild`, for safety re: https://www.paulirish.com/2011/surefire-dom-element-insertion/
     ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
     // A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
     ss.onloadcssdefined = function( cb ){
