@@ -1,7 +1,7 @@
 ---
 title: "Bal nuisette"
 annee: 2005
-published: false
+published: true
 
 streaming:
  - nom: Jamendo
