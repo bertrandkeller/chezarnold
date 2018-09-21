@@ -1,6 +1,7 @@
 ---
 title: Sauvage
 annee: '2007'
+image: /assets/uploads/image-sauvage-chupa-chuva-2007.jpg
 musiciens:
   - Jérémie Arnold
   - Hadrien Bériot
