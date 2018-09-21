@@ -1,6 +1,7 @@
 ---
 title: Soundcloud Arnold
-image: ''
+image: >-
+  /assets/uploads/duo-jérémie-arnold-julien-chiquet-2-au-réservoir-septembre-2018.jpg
 layout: post
 ---
 [**Soundcloud de Arnold**](https://soundcloud.com/arnold-music-2)
