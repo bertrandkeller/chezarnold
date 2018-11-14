@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Arnold
 email: bertrand.keller@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: Site du super groupe de musique française Arnold # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chezarnold.netlify.com/"
 twitter_username: bertrandkeller
