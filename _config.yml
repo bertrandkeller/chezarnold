@@ -21,6 +21,7 @@ url: "https://chezarnold.netlify.com/"
 twitter_username: bertrandkeller
 github_username:  bertrandkeller
 environment: production
+repository: bertrandkeller/chezarnold.git
 
 theme: overkyll-jekyll-theme
 permalink: pretty
@@ -37,6 +38,10 @@ image:
 
 facebook:
   publisher: 318034885406
+
+jekyll_tidy:
+  ignore_env: development
+  compress_html: true
 
 algolia:
   application_id: 'DGB0MVTOD1'
@@ -85,5 +90,5 @@ cloudinary:
       steps: 5
       sizes: "(min-width:40em) 40em, 90vw"
 
-# plugins:
-#   - jekyll-algolia
+plugins:
+   - jekyll-tidy

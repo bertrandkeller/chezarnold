@@ -14,7 +14,7 @@ streaming:
  - nom: iTunes
    url: https://itunes.apple.com/fr/album/touriste/id728375714
  - nom: Deezer
-   url: http://www.deezer.com/fr/album/7050001
+   url: https://www.deezer.com/fr/album/7050001
  - nom: Spotify
    url: https://open.spotify.com/album/25YqNjyKl7ScZ6AuOpDizz
 

@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
+gem 'jekyll', :github => 'jekyll', :branch => 'master'
+
 group :development do
     gem 'foreman'
     gem 'octopress-autoprefixer'
@@ -23,4 +25,6 @@ group :jekyll_plugins do
     gem 'jekyll-cloudinary'
     #gem 'jekyll-algolia', '~> 1.0'
     gem "overkyll-jekyll-theme"
+    gem "liquid-c", "~> 4.0"
+    gem 'jekyll-commonmark'
 end

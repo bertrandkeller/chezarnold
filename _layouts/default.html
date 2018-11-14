@@ -50,6 +50,8 @@ layout: default
         {% endfor %}
 {% endcapture %}{{- source -}}
     </main>
+    <script src="{{ site.url }}/assets/js/fetch-inject.js"></script>
+    <script>fetchInject(['{{ site.url }}/assets/js/instantclick.min.js']).then(() => {InstantClick.init();})</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/fr.js"></script>
     <script>

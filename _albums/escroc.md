@@ -1,6 +1,6 @@
 ---
 title: Escroc
-annee: '2010'
+annee: 2010
 musiciens:
   - Jérémie Arnold
   - Hadrien Bériot
@@ -20,12 +20,13 @@ videos:
   - nom: Saoul
     url: xyvzFTIYGt4
 streaming:
-  - nom: iTunes
-    url: 'https://itunes.apple.com/fr/album/escroc/id362076435'
-  - nom: Deezer
-    url: 'http://www.deezer.com/fr/album/696448'
-  - nom: spotify
-    url: 'https://soundcloud.com/arnold-music-2/sets/escroc'
+ - nom: iTunes
+   url: https://itunes.apple.com/fr/album/escroc/id362076435
+ - nom: Deezer
+   url: https://www.deezer.com/fr/album/696448
+ - nom: spotify
+   url: https://soundcloud.com/arnold-music-2/sets/escroc
+
 songs:
   - duree: '3:26'
     titre: Escroc

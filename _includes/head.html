@@ -1,19 +1,22 @@
 <head itemscope itemtype="https://schema.org/WebSite">
-  <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" href="{{ "/feed/" | absolute_url }}"/>
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" href="{{ "feed/" | absolute_url }}"/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="preload" href="/assets/css/fonts.css" as="stylesheet">
-  <link rel="preload" href="/assets/css/main.css" as="stylesheet">
-  <link rel="preload" href="/assets/images/background-arnold.jpg" as="image">
+  <link rel="preload" href="/assets/css/fonts.css" as="style">
+  <link rel="preload" href="/assets/css/main.css" as="style">
+  <link rel="preload" href="{{ site.data.theme.header }}" as="image">
   <style>
   .site-header-hero {
+    {% if site.data.theme.header %}
+    background-image: url({{ site.data.theme.header }}) !important;
+    {% else %}
     background-image: url(/assets/images/background-arnold.jpg) !important;
+    {% endif %}
   }
   </style>
   <!-- <link rel="preload" href="https://fonts.googleapis.com/css?family=Abel" as="style">

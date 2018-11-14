@@ -65,4 +65,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Date, name: concertdate, widget: date, required: false}
               - {label: Lien, name: lien, widget: string, required: false}
               - {label: Lieu, name: lieu, widget: string, required: false}
+  - name: "theme"
+    label: "Thème"
+    editor:
+      preview: false
+    files:
+      - name: "header"
+        label: "header"
+        file: "_data/theme.yml"
+        description: "Image d’entête"
+        fields: # The fields each document in this collection have
+          - {label: "Header", name: "header", widget: "image"}
 
