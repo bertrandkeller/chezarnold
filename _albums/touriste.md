@@ -19,26 +19,17 @@ streaming:
    url: https://open.spotify.com/album/25YqNjyKl7ScZ6AuOpDizz
 
 songs:
- - titre: Exil
-   duree: '4:09'
- - titre: Ti séga
-   duree: '2:38'
- - titre: Adèle
-   duree: '3:52'
- - titre: Il faut
-   duree: '3:50'
- - titre: Dandy
-   duree: '3:20'
- - titre: La dodo
-   duree: '2:47'
- - titre: Pourquoi tu pars
-   duree: '3:48'
- - titre: Voyage de Baudelaire
-   duree: '3:46'
- - titre: Petite fille à la vanille
-   duree: '2:27'
- - titre: Sept airs
-   duree: '2:38'
+ - titre: Le Chant des Artisans
+ - titre: Précaire
+ - titre: Sourire
+ - titre: Petite Geek
+ - titre: Misogyne
+ - titre: Tour de France
+ - titre: Je Suis Vert
+ - titre: La Mélodie
+ - titre: Irrévérencieux
+ - titre: Dessine
+ - titre: Touriste
 
 musiciens:
  - Jérémie Arnold - chant
