@@ -57,6 +57,7 @@ markdown: kramdown
 exclude:
   - Gemfile.lock
   - node_modules
+  - .jekyll-cache
 
 collections:
   albums:
@@ -92,3 +93,4 @@ cloudinary:
 
 plugins:
    - jekyll-tidy
+   - jekyll-commonmark
