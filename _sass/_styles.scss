@@ -7,6 +7,23 @@ body {
 .site-header-hero {
   position: relative;
   background-position: top center;
+	min-height: 65vh;
+}
+
+.site-title-hero {
+  margin-top: 35vmin;
+  background: rgba(0,0,0,0.3);
+  letter-spacing: 8px;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px #000;
+}
+
+label, input, textarea {
+	width: 100%;
+}
+
+.button.button--warning{
+	color: #000;
 }
 
 .nav-main {

@@ -5,8 +5,10 @@ image: >-
 layout: post
 ---
 
+Rendez-vous à Paris samedi 10 novembre au [Bateau El Alamein](https://www.facebook.com/bateauelalamein/), pour un concert d’[Arnold](https://www.facebook.com/Arnold-318034885406/), en duo…
 
-<p>Rdv à Paris<strong> samedi 10 novembre</strong> au <strong><a href="https://www.facebook.com/bateauelalamein/">Bateau El Alamein</a></strong>, pour un <strong>concert d’<a href="https://www.facebook.com/Arnold-318034885406/">Arnold</a>,&nbsp;</strong>en duo…<br>
-Et sur l’eau, Port de la Gare, Paris 13ème.<br>
-Sur place 8€.<br>
-A bientôt !</p>
+Et sur l’eau, Port de la Gare, Paris 13ème.
+
+Sur place 8€.
+
+A bientôt !

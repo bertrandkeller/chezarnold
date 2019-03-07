@@ -52,7 +52,7 @@ algolia:
     - _posts/*.html
 
 # Build settings
-markdown: CommonMark
+markdown: kramdown
 
 exclude:
   - Gemfile.lock
