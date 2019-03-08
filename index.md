@@ -8,8 +8,8 @@ layout: default
 <div>
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{% if page.image %}
-<img src="{{ page.image }}" alt="{{ page.title }}">
+{% if post.image %}
+<img src="{{ post.image }}" alt="{{ post.title }}">
 {% endif %}
 {{ post.content }}  
 {% assign videos = post.videos %}

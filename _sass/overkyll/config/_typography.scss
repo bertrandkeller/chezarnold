@@ -82,7 +82,7 @@ h1, .h1 { font-size: $title1; }
 @media #{$xxlarge-up} {
   body {
     font-size: $base-em * $ms4;
-    @include csslock-fontsize($xxlarge,200,$ms4,$ms5);
+    @include csslock-fontsize($xxlarge,2000,$ms4,$ms5);
   }
 }
 
