@@ -1,7 +1,7 @@
 ---
 title: Sur scène en bateau
 image: >-
-  /assets/bateau-el-alamein.jpg
+  /assets/uploads/duo-jérémie-arnold-julien-chiquet-au-réservoir-septembre-2018.jpg
 layout: post
 ---
 
