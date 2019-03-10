@@ -1,5 +1,6 @@
 ---
 title: Septembre solaire
+image: /assets/uploads/arnold - live.jpg
 layout: post
 ---
 
