@@ -2,11 +2,11 @@
 layout: null
 ---
 
-'use strict';
+"use strict";
 
 const staticCacheName = "version-{{site.time | date: '%Y%m%d%H%M%S'}}";
-const pagesCacheName  = 'pages';
-const imagesCacheName = 'images';
+const pagesCacheName  = "pages";
+const imagesCacheName = "images";
 
 const cacheList = [
   staticCacheName,
@@ -19,22 +19,17 @@ const offlinePages = [
     {% for page in site.html_pages %}
     '{{ page.url  | relative_url }}',
     {% endfor %}
-    {% for post in site.posts limit:3 %}
-    '{{ post.url  | relative_url }}',
-    {% endfor %}
 ];
 
 function updateStaticCache() {
   return caches.open(staticCacheName)
     .then(cache => {
       cache.addAll([
+        "/",
         '/assets/js/instantclick.min.js',
-      ].concat(offlinePages));
-      return cache.addAll([
-        '/assets/js/fetch-inject.js',
-        '{{ "/assets/css/main.css" | relative_url }}',
-        '{{ "/assets/css/font.css" | relative_url }}'
-      ]);
+        "/assets/js/fetch-inject.js",
+        "{{ "/assets/css/font.css" | relative_url }}"
+      ])
     });
 }
 
@@ -117,7 +112,6 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(request)
     .then(response => {
-      // CACHE
       return response || fetch(request)
         .then(response => {
           if (request.headers.get('Accept').includes('image')) {

@@ -9,15 +9,16 @@
     # Don't load any resource type not explicitly enabled
     # Disable plugins like Flash or Silverlight
     # Load images, scripts, stylesheets and fonts from self
+    Access-Control-Allow-Origin: *
     # Report to report-uri.io
-    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://bertrandkeller.report-uri.io https://res.cloudinary.com/ https://*.cloudfront.net; object-src 'self' https://www.youtube.com http://www.observatoiredesmedias.com https://www.dailymotion.com https://vimeo.com https://player.vimeo.com https://*.slideshare.net *.slidesharecdn.com https://blip.tv *.wordpress.com http://www.mapsofwar.com http://www.superdeluxe.com/ http://www.uniqlo.jp; img-src 'self' https://res.cloudinary.com/ https://*.cloudfront.net; script-src 'self' 'unsafe-inline' https://platform.twitter.com/widgets.js; font-src 'self' data: fonts.gstatic.com; worker-src 'self'; child-src 'self' https://player.vimeo.com https://vimeo.com https://www.dailymotion.com https://speakerdeck.com https://*.slidesharecdn.com https://*.slideshare.net https://jsfidlle.net https://www.youtube.com https://www.youtube-nocookie.com; media-src *; report-uri https://bertrandkeller.report-uri.io/r/default/csp/enforce;
+    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://chezarnold.report-uri.io https://res.cloudinary.com/ https://*.cloudfront.net; object-src 'self' https://www.youtube.com http://www.observatoiredesmedias.com https://www.dailymotion.com https://vimeo.com https://player.vimeo.com https://*.slideshare.net *.slidesharecdn.com https://blip.tv *.wordpress.com http://www.mapsofwar.com http://www.superdeluxe.com/ http://www.uniqlo.jp; img-src 'self' https://res.cloudinary.com/ https://*.cloudfront.net; script-src 'self' 'unsafe-inline' https://platform.twitter.com/widgets.js; font-src 'self' data: fonts.gstatic.com; worker-src 'self'; child-src 'self' https://player.vimeo.com https://vimeo.com https://www.dailymotion.com https://speakerdeck.com https://*.slidesharecdn.com https://*.slideshare.net https://jsfidlle.net https://www.youtube.com https://www.youtube-nocookie.com; media-src *; report-uri https://chezarnold.report-uri.io/r/default/csp/enforce;
     Referrer-Policy: same-origin
     # Allow service worker to access all site
     Service-Worker-Allowed: /
     # XSS
     X-XSS-Protection:1; mode=block
     X-Frame-Option:SAMEORIGIN
-	
+
 # Assets preload
 /
   Link: </assets/css/main.css>; rel=preload; as=stylesheet

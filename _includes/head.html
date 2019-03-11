@@ -6,13 +6,16 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="preload" href="/assets/css/fonts.css" as="style">
+  <link href="https://res.cloudinary.com/" rel="preconnect" crossorigin>
   <link rel="preload" href="/assets/css/main.css" as="style">
-  <link rel="preload" href="{{ site.data.theme.header }}" as="image">
+  <link rel="preload" href="/assets/js/fetch-inject.js" as="script">
+  <link rel="preload" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_limit,f_auto,q_auto,w_800/https://chezarnold.fr/{{ site.data.theme.header }}" as="image">
+  <script src="{{ site.url }}assets/js/fetch-inject.js"></script>
+  {% seo %}
   <style>
   .site-header-hero {
     {% if site.data.theme.header %}
-    background-image: url({{ site.data.theme.header }}) !important;
+    background-image: url(https://res.cloudinary.com/dou0m7u5s/image/fetch/c_limit,f_auto,q_auto,w_800/https://chezarnold.fr/{{ site.data.theme.header }}) !important;
     {% else %}
     background-image: url(/assets/images/background-arnold.jpg) !important;
     {% endif %}

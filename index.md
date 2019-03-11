@@ -1,5 +1,6 @@
 ---
 title: accueil
+description: Arnold chanteur à moto
 layout: default
 ---
 
@@ -9,9 +10,13 @@ layout: default
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {% if post.image %}
+{% if site.environment != 'development' %}
+{% cloudinary {{ post.image }} alt="{{post.title}}" %}
+{% else %}
 <img src="{{ post.image }}" alt="{{ post.title }}">
 {% endif %}
-{{ post.content }}  
+{% endif %}
+{{ post.content }}
 {% assign videos = post.videos %}
 {% if post.videos %}
 <h2>Vidéos</h2>

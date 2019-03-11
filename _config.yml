@@ -17,7 +17,7 @@ title: Arnold
 email: bertrand.keller@gmail.com
 description: Site du super groupe de musique française Arnold # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chezarnold.netlify.com/"
+url: "https://chezarnold.fr/"
 twitter_username: bertrandkeller
 github_username:  bertrandkeller
 environment: production
@@ -83,6 +83,7 @@ defaults:
 cloudinary:
   cloud_name: dou0m7u5s
   verbose: true
+  origin_url: https://chezarnold.fr/
   presets:
     default:
       min_width: 320

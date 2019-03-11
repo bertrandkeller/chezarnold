@@ -23,14 +23,29 @@ label, input, textarea {
 }
 
 .button.button--warning{
-	color: #000;
+  color: #000;
 }
 
 .nav-main {
+  color: #333;
   a {
-    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #fff;
+    &:hover {
+      color: #555;
+      text-decoration: underline;
+    }
   }
 }
+ .nav-social {
+   color: #fff;
+   a {
+    text-shadow: 1px 1px 2px #333;
+    &:hover {
+      color: #dedede;
+    }
+  }
+ }
 
 .nav-main__scroll {
   height: 2.5em;
@@ -64,6 +79,12 @@ label, input, textarea {
     display: block;
     margin: 1em auto;
   }
+}
+
+.post-album-image {
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 1px 1px 10px #555;
 }
 
 time {

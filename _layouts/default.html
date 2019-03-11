@@ -9,7 +9,7 @@ layout: default
 
   <body class="page" itemscope itemtype="https://schema.org/WebPage">
 
-    {% include header.html %}
+    {% include_cached header.html %}
 
     <main id="main">
         {% capture source %}
@@ -50,20 +50,7 @@ layout: default
         {% endfor %}
 {% endcapture %}{{- source -}}
     </main>
-    <script src="{{ site.url }}/assets/js/fetch-inject.js"></script>
-    <script>fetchInject(['{{ site.url }}/assets/js/instantclick.min.js']).then(() => {InstantClick.init();})</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/fr.js"></script>
-    <script>
-      var dates = document.querySelectorAll('.date')
-      var now = moment().utc().valueOf();;
-      dates.forEach(function(element) {
-        date = element.getAttribute('datetime')
-        var newdate = moment(date, "YYYYMMDD").fromNow();
-        var datetime = document.querySelector('[datetime="'+ date +'"]')
-        datetime.innerHTML += '<span>' + newdate + '</span>'
-      });
-    </script>
+    <script defer>fetchInject(['{{ site.url }}/assets/js/instantclick.min.js']).then(() => {InstantClick.init();})</script>
     {% include_cached serviceworkers.html %}
   </body>
 </html>
