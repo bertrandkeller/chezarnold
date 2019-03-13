@@ -4,7 +4,7 @@ layout: default
 
 <div class="wrapper">
   <article class="post">
-    <h1 class="post-title">{{ page.title }} - {{ page.annee }}</h1>
+    <h2 class="post-title">{{ page.title }} - {{ page.annee }}</h2>
     {{ content | markdownify }}
     {% if site.environment != 'development' %}
     {% cloudinary /assets/images/{{ page.title | slugify }}.jpg alt="{{ page.title }}" class="post-album-image" %}

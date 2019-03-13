@@ -4,10 +4,18 @@ body {
   background: #efefef;
 }
 
+.page {
+  padding-bottom: 1.5em;
+}
+
 .site-header-hero {
   position: relative;
   background-position: top center;
-	min-height: 65vh;
+  min-height: 65vh;
+  text-align: center;
+  a {
+    max-width: 80vw;
+  }
 }
 
 .site-title-hero {
@@ -16,6 +24,14 @@ body {
   letter-spacing: 8px;
   background-repeat: no-repeat;
   text-shadow: 1px 1px #000;
+}
+
+main {
+  padding: 1.5em 0;
+}
+
+.wrapper h2:first-of-type {
+  margin-top: 0;
 }
 
 label, input, textarea {
@@ -106,9 +122,6 @@ time {
 .block-timeline {
   padding: $base-line;
   background: #fff;
-  h2 {
-    font-size: $bigger;
-  }
 }
 
 .block-timeline__grid {

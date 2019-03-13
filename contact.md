@@ -6,6 +6,7 @@ weight: 10
 ---
 
 <section>
+  <h2>Vos informations</h2>
   <div id="form" class="container">
 		<div class="block">
 			<form action="https://formspree.io/arnoldetc@gmail.com" method="POST">

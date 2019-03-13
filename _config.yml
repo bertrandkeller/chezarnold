@@ -59,6 +59,9 @@ exclude:
   - node_modules
   - .jekyll-cache
 
+include:
+  - actualité
+
 collections:
   albums:
     output: true
@@ -95,3 +98,4 @@ cloudinary:
 plugins:
    - jekyll-tidy
    - jekyll-commonmark
+   - jekyll-feed

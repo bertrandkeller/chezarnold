@@ -2,6 +2,6 @@
 /rss.php /feed/ 301
 /index.php / 200
 
-/musique/ /albums/ 200
-/musique /albums 200
+/musique/ /albums/ 301
+/musique /albums 301
 
