@@ -1,5 +1,5 @@
 ---
-title: Les albums d'Arnold
+title: Les albums
 navigation: Albums
 ---
 
