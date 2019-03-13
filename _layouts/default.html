@@ -50,7 +50,10 @@ layout: default
         {% endfor %}
 {% endcapture %}{{- source -}}
     </main>
-    <script defer>fetchInject(['{{ site.url }}/assets/js/instantclick.min.js']).then(() => {InstantClick.init();})</script>
+    <script>fetchInject(['{{ site.url }}/assets/js/instantclick.min.js']).then(() => {InstantClick.init();})</script>
+    {% if page.videos %}
+    {% include_cached popin.js %}
+    {% endif %}
     {% include_cached serviceworkers.html %}
   </body>
 </html>
