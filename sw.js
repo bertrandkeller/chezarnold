@@ -28,7 +28,7 @@ function updateStaticCache() {
         "/",
         '/assets/js/instantclick.min.js',
         "/assets/js/fetch-inject.js",
-        "{{ "/assets/css/font.css" | relative_url }}"
+        "{{ "/assets/css/fonts.css" | relative_url }}"
       ])
     });
 }
