@@ -22,7 +22,7 @@
 # Assets preload
 /
   Link: </assets/css/main.css>; rel=preload; as=stylesheet
-  Link: </assets/css/font.css>; rel=preload; as=stylesheet
+  Link: </assets/css/fonts.css>; rel=preload; as=stylesheet
   #Link: </assets/js/fetch-inject.js>; rel=preload; as=script
   #Link: </assets/js/instantclick.min.js>; rel=preload; as=script
 
