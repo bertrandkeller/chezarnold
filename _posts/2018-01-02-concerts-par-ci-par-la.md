@@ -3,7 +3,7 @@ title: Concert par ci et par là
 layout: post
 ---
 <p>Retrouvez <a href="https://www.facebook.com/Arnold-318034885406/">Arnold </a>en concert en 2018 !</p>
-<iframe src="https://www.youtube.com/embed/MseEM7Hnkiw?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<iframe src="https://www.youtube.com/embed/MseEM7Hnkiw?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <ul>
 <li><strong>27/01/2018 :&nbsp;<a href="https://www.facebook.com/CreperieLeBelem/">Crêperie Le Belem</a>, Meudon (92)</strong></li>
 <li><strong>18/02/2018 :&nbsp;<a href="https://www.facebook.com/musiquesencampagne/">Musiques en Campagne</a>, Francières (60)</strong></li>

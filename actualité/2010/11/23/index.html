@@ -1118,17 +1118,6 @@
           </nav>
         </div>
       </main>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/fr.js"></script>
-      <script>
-        var dates = document.querySelectorAll('.date')
-        var now = moment().utc().valueOf();;
-        dates.forEach(function(element) {
-          date = element.getAttribute('datetime')
-          var newdate = moment(date, "YYYYMMDD").fromNow();
-          var datetime = document.querySelector('[datetime="'+ date +'"]')
-          datetime.innerHTML += '<span>' + newdate + '</span>'
-        });
-      </script>
+      
     </body>
   </html>

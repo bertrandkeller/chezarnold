@@ -1026,7 +1026,7 @@
       }(this));
 
       loadCSS("/assets/css/main.css");
-      
+
     </script>
     <noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
     <link rel="apple-touch-icon" sizes="57x57" href=/assets/favicons/apple-icon-57x57.png>
@@ -1096,8 +1096,8 @@
           </article>
           <nav class="pagination--prevnext" role="navigation">
             <div class="pagination--prev">
-              <a class="pagination--item" href="/actualité/2017/10/03/">
-                «&#8239;Je Consomme&#8239;» nouveau clip le 20 octobre&#8239;!
+              <a class="pagination--item" href="/actualité/2017/06/13/">
+                Émoi de juin
               </a>
             </div>
             <div class="pagination--next">
@@ -1108,17 +1108,6 @@
           </nav>
         </div>
       </main>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/fr.js"></script>
-      <script>
-        var dates = document.querySelectorAll('.date')
-        var now = moment().utc().valueOf();;
-        dates.forEach(function(element) {
-          date = element.getAttribute('datetime')
-          var newdate = moment(date, "YYYYMMDD").fromNow();
-          var datetime = document.querySelector('[datetime="'+ date +'"]')
-          datetime.innerHTML += '<span>' + newdate + '</span>'
-        });
-      </script>
+      
     </body>
   </html>
