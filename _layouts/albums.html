@@ -46,3 +46,38 @@ layout: default
     {% endif%}
   </article>
 </div>
+
+
+{% if page.songs %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "MusicAlbum",
+  "name": "{{ page.title }}",
+  "image": "/assets/images/{{ page.title | slugify }}.jpg",
+  "albumProductionType": "http://schema.org/StudioAlbum",
+  "albumReleaseType": "http://schema.org/AlbumRelease",
+  "genre": "chanson",
+  "byArtist": {
+    "@type": "MusicGroup",
+    "name": "Arnold"
+  },
+  "track": {
+    "@type": "ItemList",
+    "numberOfItems": {% for song in page.songs %}{% if forloop.last %}{{ forloop.length }}{% endif %}{% endfor %},
+    "itemListElement": [
+    {% for song in page.songs %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "item": {
+          "@type": "MusicRecording",
+          "name": "{{ song.titre }}"
+        }
+      }{% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+    ]
+  }
+}
+</script>
+{% endif %}
