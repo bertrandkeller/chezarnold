@@ -25,7 +25,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/actualites/">Les dernières actualités</a></p>
+<p><a href="/actualites/">Les dernières actualités</a></p>
 </div>
 
 <div class="wrapper">
@@ -46,7 +46,7 @@ layout: default
 {% endfor %}
 </div>
 
-<p>> <a href="/albums/">Tous les albums</a></p>
+<p><a href="/albums/">Tous les albums</a></p>
 </div>
 
 <div class="block-timeline">
@@ -62,6 +62,6 @@ layout: default
 	{% endif %}
 	{% endfor %}
 </p>
-<p>> <a href="/concerts/">Tous les concerts</a></p>
+<p><a href="/concerts/">Tous les concerts</a></p>
 </div>
 </div>
