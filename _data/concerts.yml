@@ -384,13 +384,12 @@ concerts:
   - concertdate: '2019-06-21'
     lien: 'https://www.facebook.com/lechantdesmoutons/'
     lieu: Le chant des moutons (45)
-  - concertdate: '2019-09-28'
-    lien: 'https://www.facebook.com/Caf%C3%A9-de-la-Paix-Auvers-141362509242435/'
-    lieu: Café de la paix - Auvers (95)
   - concertdate: '2019-03-22'
     lien: 'https://www.facebook.com/restolemoment/'
     lieu: Vineuil Saint-Firmin (60)
-  - concertdate: '2019-05-28'
-    lien: >-
-      https://www.facebook.com/accueiljeunes.alc?fref=search&__tn__=%2Cd%2CP-R&eid=ARDz-zINOgRHRZ0yoy7TqI7OZviNZSlQZi6g7_0LVV7u7XUADu33x73PiLsSSi9E1HVl6HjV4vuFbN8M
+  - concertdate: '2019-05-30'
+    lien: 'https://www.facebook.com/accueiljeunes.alc'
     lieu: Chevreuse (78)
+  - concertdate: '2019-09-28'
+    lien: 'https://www.facebook.com/Caf%C3%A9-de-la-Paix-Auvers-141362509242435/'
+    lieu: AUVERS SUR OISE (95)
