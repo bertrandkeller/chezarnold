@@ -17,7 +17,7 @@ title: Arnold | Nouvel Album "Amateur Professionnel"
 email: bertrand.keller@gmail.com
 description: Arnold est un artiste de chanson française. Sur cette page vous trouverez les nouvelles relatives à sa musique. # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chezarnold.fr/"
+url: "https://chezarnold.fr"
 twitter_username: bertrandkeller
 github_username:  bertrandkeller
 environment: production

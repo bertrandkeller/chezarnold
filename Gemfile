@@ -7,7 +7,6 @@ require 'open-uri'
 gem "liquid-c"
 
 group :development do
-    gem 'foreman'
     gem 'octopress-autoprefixer'
 end
 
