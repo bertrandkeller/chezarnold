@@ -195,10 +195,12 @@ time {
 
 .block-album-page {
   @include grid(2);
+  grid-gap: 1.5em;
 }
 
 .block-album-page__element-int {
   display: flex;
+  min-height: 7em;
   img {
     margin-right: $base-line/2;
     max-width: 120px;
