@@ -61,6 +61,8 @@ exclude:
 
 include:
   - actualité
+  - _redirects
+  - _headers
 
 collections:
   albums:
