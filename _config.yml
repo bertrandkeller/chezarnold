@@ -62,7 +62,7 @@ exclude:
 include:
   - actualité
   - _redirects
-  - _headers
+  #- _headers
 
 collections:
   albums:

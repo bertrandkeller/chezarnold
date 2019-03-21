@@ -2,6 +2,8 @@
 /rss.php /feed/ 301
 /index.php / 200
 
+/bio/ /albums/ 301
 /musique/ /albums/ 301
 /musique /albums 301
+/category/:splat /https://chezarnold.fr/actualite/ 301
 
