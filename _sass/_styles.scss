@@ -32,6 +32,7 @@ main {
 
 .wrapper h2:first-of-type {
   margin-top: 0;
+  line-height: 0.8;
 }
 
 label, input, textarea {
@@ -53,7 +54,8 @@ label, input, textarea {
     }
   }
 }
- .nav-social {
+
+.nav-social {
    color: #fff;
    a {
     text-shadow: 1px 1px 2px #333;
@@ -94,6 +96,7 @@ label, input, textarea {
   img, iframe, embed {
     display: block;
     margin: 1em auto;
+    width: 100%;
   }
 }
 
@@ -101,6 +104,19 @@ label, input, textarea {
   max-width: 400px;
   margin: auto;
   box-shadow: 1px 1px 10px #555;
+}
+
+.year {
+  display: inline-block;
+  clear: both;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  line-height: 1;
+  font-size: 0.85rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #efefef;
+  background: #444;
+  border-radius: 4px;
 }
 
 time {
@@ -196,6 +212,12 @@ time {
 .block-album-page {
   @include grid(2);
   grid-gap: 1.5em;
+}
+
+.block-album-page__element {
+  h2 a {
+    display: block;
+  }
 }
 
 .block-album-page__element-int {
