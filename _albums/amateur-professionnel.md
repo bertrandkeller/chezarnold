@@ -6,7 +6,7 @@ musiciens:
     Arrangement-enregistrement-mixage-mastering : Alban Sautour (sauf La Seine
     par Laurent Jaïs et Je Consomme par Bertrand Allaume)
   - Jérémie Arnold (paroles et musique)
-  - Alexandre Leito à l'accordéon
+  - Alexandre Leitao à l'accordéon
   - Simone Prattico à la batterie
   - Paul Amboise à la batterie (La Seine)
   - Julien Chiquet à la guitare (Je Consomme et Toujours en Chantier)
