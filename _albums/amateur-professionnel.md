@@ -2,11 +2,9 @@
 title: Amateur Professionnel
 annee: 2019
 musiciens:
-  - Arrangement
-  - enregistrement
   - >-
-    mixage et mastering : Alban Sautour (sauf La Seine par Laurent Jaïs et Je
-    Consomme par Bertrand Allaume)
+    Arrangement-enregistrement-mixage-mastering : Alban Sautour (sauf La Seine
+    par Laurent Jaïs et Je Consomme par Bertrand Allaume)
   - Jérémie Arnold (paroles et musique)
   - Alexandre Leito à l'accordéon
   - Simone Prattico à la batterie
@@ -19,7 +17,7 @@ musiciens:
   - Alban Sautour (compo Amateur Professionnel)
   - >-
     Damien Vignères (choeurs sur La Seine)  et Marion (choeurs sur Tour du Monde
-    et Intox))
+    et Intox)
 guests:
   - ''
 videos:
