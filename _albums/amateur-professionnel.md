@@ -16,7 +16,10 @@ musiciens:
   - Simon Arnold (compo La Seine)
   - Léonard Gras (compo Complots)
   - Madeleine Helbert (compo La Valse des Ministres)
-  - Alban Sautour (compo Amateur Professionnel)  et Marion (choeurs)
+  - Alban Sautour (compo Amateur Professionnel)
+  - >-
+    Damien Vignères (choeurs sur La Seine)  et Marion (choeurs sur Tour du Monde
+    et Intox))
 guests:
   - ''
 videos:
