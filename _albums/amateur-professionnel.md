@@ -12,7 +12,7 @@ musiciens:
   - Simone Prattico à la batterie
   - Paul Amboise à la batterie (La Seine)
   - Julien Chiquet à la guitare (Je Consomme et Toujours en Chantier)
-  - Jérôme Brohe (compo Changer)
+  - Jérôme Brohet (compo Changer)
   - Simon Arnold (compo La Seine)
   - Léonard Gras (compo Complots)
   - Madeleine Helbert (compo La Valse des Ministres)
