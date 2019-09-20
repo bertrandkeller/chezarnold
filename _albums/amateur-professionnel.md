@@ -27,6 +27,8 @@ videos:
     url: 8NiBaJ70Db4
   - nom: La seine
     url: wZGumBAZpPc
+  - nom: Toujours en chantier
+    url: ZqMyM0ageWY
 songs:
   - titre: Tour du Monde
   - titre: La Seine
