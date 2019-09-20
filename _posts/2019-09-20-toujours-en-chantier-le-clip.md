@@ -1,5 +1,6 @@
 ---
 title: 'Toujours en Chantier, le clip !'
+image: /assets/uploads/arnold-ap-bd-.jpg
 layout: post
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZqMyM0ageWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
