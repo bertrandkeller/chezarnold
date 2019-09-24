@@ -1,6 +1,7 @@
 ---
 title: Les actualités
 permalink: '/actualite/'
+layout: page
 pagination:
   enabled: true
   permalink: '/actualites/:num/'

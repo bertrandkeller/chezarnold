@@ -10,13 +10,16 @@ layout: default
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {% if post.image %}
-{% if site.environment != 'development' %}
-{% cloudinary {{ post.image }} alt="{{post.title}}" %}
-{% else %}
-<img src="{{ post.image }}" alt="{{ post.title }}">
+{% unless post.image == '' %}
+{{ post.image }}
+  {% if site.environment != 'development' %}
+  {% cloudinary {{ post.image }} alt="{{post.title}}" loading="lazy" %}
+  {% else %}
+  <img src="{{ post.image }}" alt="{{ post.title }}">
+  {% endif %}
+{% endunless %}
 {% endif %}
-{% endif %}
-{{ post.content }}
+{{ post.content | markdownify }}
 {% assign videos = post.videos %}
 {% if post.videos %}
 <h2>Vidéos</h2>

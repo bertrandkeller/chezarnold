@@ -1,6 +1,7 @@
 ---
 title: Concerts
 navigation: Concerts
+layout: page
 ---
 
 {% assign concerts =  site.data.concerts.concerts | sort:'concertdate' %}

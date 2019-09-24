@@ -1,6 +1,7 @@
 ---
 title: Les albums
 navigation: Albums
+layout: page
 ---
 
 {% assign albums = site.albums | sort: 'annee', 'last' %}
@@ -10,7 +11,7 @@ navigation: Albums
   <h2><a href="{{ album.url }}">{{ album.title }}</a> <span class="year">{{ album.annee }}</span></h2>
   <div class="block-album-page__element-int">
   {% if site.environment != 'development' %}
-  {% cloudinary /assets/images/{{ album.title | slugify }}-small.jpg alt="{{album.title}}" %}
+  {% cloudinary /assets/images/{{ album.title | slugify }}-small.jpg alt="{{album.title}}" loading="lazy" %}
   {% else %}
   <a href="{{ album.url }}"><img src="/assets/images/{{ album.title | slugify }}-small.jpg" alt="{{ album.title }}"></a>
   {% endif %}

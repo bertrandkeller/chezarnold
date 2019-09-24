@@ -5,21 +5,19 @@ musiciens:
   - >-
     Arrangement-enregistrement-mixage-mastering : Alban Sautour (sauf La Seine
     par Laurent Jaïs et Je Consomme par Bertrand Allaume)
-  - Jérémie Arnold (paroles et musique)
-  - Alexandre Leitao à l'accordéon
-  - Simone Prattico à la batterie
-  - Paul Amboise à la batterie (La Seine)
-  - Julien Chiquet à la guitare (Je Consomme et Toujours en Chantier)
-  - Jérôme Brohet (compo Changer)
-  - Simon Arnold (compo La Seine)
-  - Léonard Gras (compo Complots)
-  - Madeleine Helbert (compo La Valse des Ministres)
-  - Alban Sautour (compo Amateur Professionnel)
+  - Jérémie Arnold - paroles et musique
+  - Alexandre Leitao - accordéon
+  - Simone Prattico - batterie
+  - Paul Amboise - batterie (La Seine)
+  - Julien Chiquet - guitare (Je Consomme et Toujours en Chantier)
+  - Jérôme Brohet - composition (Changer)
+  - Simon Arnold - composition (La Seine)
+  - Léonard Gras - composition (Complots)
+  - Madeleine Helbert - composition La Valse des Ministres
+  - Alban Sautour - composition Amateur Professionnel
   - >-
-    Damien Vignères (choeurs sur La Seine)  et Marion (choeurs sur Tour du Monde
+    Damien Vignères - chœurs (La Seine) et Marion - chœurs (Tour du Monde
     et Intox)
-guests:
-  - ''
 videos:
   - nom: Je consomme
     url: MseEM7Hnkiw

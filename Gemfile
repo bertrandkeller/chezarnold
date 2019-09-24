@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
-# gem "jekyll", github: "jekyll/jekyll"
+gem 'jekyll', :github => 'jekyll', :branch => 'master'
+gem 'liquid', :git => 'https://github.com/Shopify/liquid.git', branch: 'master'
 gem "liquid-c"
 
 group :development do
@@ -19,7 +20,7 @@ group :jekyll_plugins do
     #gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem "jekyll-seo-tag"
-    gem "jekyll-default-layout"
+    #gem "jekyll-default-layout"
     gem "jekyll-tidy"
     gem "jekyll-include-cache"
     gem 'jekyll-cloudinary'

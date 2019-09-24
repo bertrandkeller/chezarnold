@@ -1,6 +1,7 @@
 ---
 title: Toutes les actualités d'Arnold
 permalink: '/actualites-toutes/'
+layout: page
 ---
 <ul class="post">
 	{% for post in site.posts%}
