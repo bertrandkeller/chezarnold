@@ -16,8 +16,8 @@ musiciens:
   - Madeleine Helbert - composition La Valse des Ministres
   - Alban Sautour - composition Amateur Professionnel
   - >-
-    Damien Vignères - chœurs (La Seine) et Marion - chœurs (Tour du Monde
-    et Intox)
+    Damien Vignères - chœurs (La Seine) et Marion - chœurs (Tour du Monde et
+    Intox)
 videos:
   - nom: Je consomme
     url: MseEM7Hnkiw
@@ -27,6 +27,8 @@ videos:
     url: wZGumBAZpPc
   - nom: Toujours en chantier
     url: ZqMyM0ageWY
+  - nom: 'Complots [extrait] '
+    url: ySoEYvId7XY
 songs:
   - titre: Tour du Monde
   - titre: La Seine
