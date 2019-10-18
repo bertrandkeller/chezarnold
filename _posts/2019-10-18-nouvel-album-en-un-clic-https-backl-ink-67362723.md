@@ -3,6 +3,6 @@ title: Nouvel album en ligne !
 image: ''
 layout: post
 ---
-Le nouvel album est en ligne sur toutes les plateformes, cliquez ici : <a href="https://backl.ink/67362723">
+Le nouvel album est sur toutes les plateformes, cliquez ici : https://backl.ink/6736272
 
-Bonne écoute d'Amateur Professionnel !
+Bonne écoute !
