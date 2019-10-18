@@ -1,8 +1,8 @@
 ---
-title: 'Nouvel album en un clic : https://backl.ink/67362723 '
-image: /assets/uploads/arnold-ap-bd-.jpg
+title: Nouvel album en ligne !
+image: ''
 layout: post
 ---
-L'album "Amateur Professionnel" est en ligne sur toutes les plateformes suivant ce lien : https://backl.ink/67362723 
+Le nouvel album est en ligne sur toutes les plateformes, cliquez ici : <a href="https://backl.ink/67362723">
 
-Bonne écoute !
+Bonne écoute d'Amateur Professionnel !
