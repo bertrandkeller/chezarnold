@@ -29,6 +29,21 @@ videos:
     url: ZqMyM0ageWY
   - nom: 'Complots [extrait] '
     url: ySoEYvId7XY
+streaming:
+  - nom: Spotify
+    url: 'https://open.spotify.com/album/6HPQCZXtflRGFZxIYbzklc'
+  - nom: Apple Music
+    url: >-
+      https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=music&ign-mpt=uo%3D4
+  - nom: iTunes
+    url: >-
+      https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=itunes&ign-mpt=uo%3D4
+  - nom: Deezer
+    url: 'https://www.deezer.com/fr/album/112851832'
+  - nom: Amazon Music
+    url: 'https://music.amazon.com/albums/B07YM1YQ8N?tag=believe-20'
+  - nom: Napster
+    url: 'https://music.amazon.com/albums/B07YM1YQ8N?tag=believe-20'
 songs:
   - titre: Tour du Monde
   - titre: La Seine
