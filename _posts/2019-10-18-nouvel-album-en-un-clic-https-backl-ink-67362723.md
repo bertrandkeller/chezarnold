@@ -3,7 +3,7 @@ title: Nouvel album en ligne !
 image: ''
 layout: post
 ---
-Le nouvel album est sur toutes les plateformes, cliquez ici : <https://backl.ink/6736272>
+Le nouvel album est sur toutes les plateformes, cliquez ici : [**https://backl.ink/67362723**](https://backl.ink/67362723)
 
 Bonne écoute !
 
