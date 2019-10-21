@@ -1,5 +1,6 @@
 ---
 title: Les concerts d'Arnold
+description: Les concerts du groupe Arnold, passés et à venir.
 dateconcerts:
   - date: 2018-04-14
     lieu: Manoir des Marronnierse, Sully (14)

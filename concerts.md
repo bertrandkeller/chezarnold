@@ -1,6 +1,7 @@
 ---
 title: Concerts
 navigation: Concerts
+description: Les concerts du groupe Arnold, passés et à venir.
 layout: page
 ---
 

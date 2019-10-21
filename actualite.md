@@ -1,6 +1,7 @@
 ---
 title: Les actualités
 permalink: '/actualite/'
+description: "Les actualités du groupe Arnold, les concerts, les albums, les vidéos…"
 layout: page
 pagination:
   enabled: true
