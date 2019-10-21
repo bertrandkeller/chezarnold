@@ -1,5 +1,6 @@
 ---
 title: "La belle"
+description: "Musique chaloupée, inspiration de la réunion. De retour d’un exil en les terres du Sud"
 annee: 2016
 
 videos:

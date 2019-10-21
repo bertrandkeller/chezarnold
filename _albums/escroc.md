@@ -1,5 +1,6 @@
 ---
 title: Escroc
+description: "Le groupe Arnold c’est vraiment un groupe de copains dont la complicité fait du bien"
 annee: 2010
 musiciens:
   - Jérémie Arnold

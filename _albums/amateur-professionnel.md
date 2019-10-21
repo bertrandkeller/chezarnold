@@ -1,5 +1,6 @@
 ---
 title: Amateur Professionnel
+description: "Arnold nous emmène faire le tour du monde 🌏 et danser sur la Seine; il nous parle de jalousie et d'amour, il nous fait rire en poésie, un vrai chantier ! Bref, cet amateur professionnel joue avec les mots, nous fait danser, rêver et illumine la chanson française en invitant à l'auto-dérision."
 annee: 2019
 musiciens:
   - >-
