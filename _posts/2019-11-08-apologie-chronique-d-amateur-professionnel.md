@@ -1,6 +1,6 @@
 ---
 title: Apologie chronique d'Amateur Professionnel
-image: /assets/uploads/arnold-ap-bd-.jpg
+image: ''
 layout: post
 ---
 Chronique d'_Amateur Professionnel_ par [Thierry C. du site Baware](https://baware.fr/arnold-amateur-professionnel/)\
