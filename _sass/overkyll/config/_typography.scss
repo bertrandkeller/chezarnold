@@ -5,7 +5,7 @@
 // Our variables
 //-------------------------------------
 $base-font-name:          -apple-system !default;
-$title-font-name:         -apple-system !default; 
+$title-font-name:         -apple-system !default;
 $base-font-family:        $base-font-name, system, sans-serif !default;
 $title-font-family:       $title-font-name, system, sans-serif !default;
 
@@ -61,28 +61,28 @@ h1, .h1 { font-size: $title1; }
 @media #{$medium-up} {
   body {
     font-size: $base-em * $ms0;
-    @include csslock-fontsize($medium,$large,$ms0,$ms1);
+    // @include csslock-fontsize($medium,$large,$ms0,$ms1);
   }
 }
 
 @media #{$large-up} {
   body {
     font-size: $base-em * $ms2;
-    @include csslock-fontsize($large,$xlarge,$ms1,$ms2);
+    // @include csslock-fontsize($large,$xlarge,$ms1,$ms2);
   }
 }
 
 @media #{$xlarge-up} {
   body {
-    font-size: $base-em * $ms3;
-    @include csslock-fontsize($xlarge,$xxlarge,$ms2,$ms4);
+    font-size: $base-em * $ms2;
+    // @include csslock-fontsize($xlarge,$xxlarge,$ms2,$ms4);
   }
 }
 
 @media #{$xxlarge-up} {
   body {
-    font-size: $base-em * $ms4;
-    @include csslock-fontsize($xxlarge,2000,$ms4,$ms5);
+    font-size: $base-em * $ms2;
+    // @include csslock-fontsize($xxlarge,2000,$ms4,$ms5);
   }
 }
 

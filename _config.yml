@@ -39,6 +39,22 @@ image:
 facebook:
   publisher: 318034885406
 
+defaults:
+  - scope:
+     path: "_posts"
+    values:
+     layout: "post"
+     permalink: "actualité/:year/:month/:day/"
+     image: /assets/images/background-arnold.jpg
+  - scope:
+      path: "_albums"
+    values:
+      layout: "albums"
+  - scope:
+      path: "_chansons"
+    values:
+      layout: ""
+
 jekyll_tidy:
   ignore_env: development
   compress_html: true
@@ -69,21 +85,6 @@ collections:
     output: true
   chansons:
     output: true
-
-defaults:
-  - scope:
-     path: "_posts"
-    values:
-     layout: "post"
-     permalink: "actualité/:year/:month/:day/"
-  - scope:
-      path: "_albums"
-    values:
-      layout: "albums"
-  - scope:
-      path: "_chansons"
-    values:
-      layout: ""
 
 cloudinary:
   cloud_name: dou0m7u5s

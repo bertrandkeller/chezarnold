@@ -2,11 +2,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" href="{{ "feed/" | absolute_url }}"/>
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" href="{{ "feed/" | absolute_url }}" />
   <link rel="alternate" type="application/json" title="{{ site.title | escape }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link href="https://res.cloudinary.com/" rel="preconnect" crossorigin>
   <link rel="preload" href="/assets/css/main.css" as="style">
   <link rel="preload" href="/assets/js/fetch-inject.js" as="script">
@@ -14,7 +13,7 @@
   <link rel="preload" href="/assets/fonts/din-regular-alternate.woff" as="font">
   <link rel="preload" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_limit,f_auto,q_auto,w_800/https://chezarnold.fr/{{ site.data.theme.header }}" as="image">
   <script src="{{ site.url }}/assets/js/fetch-inject.js"></script>
-  {% seo %}
+  {% seo title=false %}
   <style>
   .site-header-hero {
     {% if site.data.theme.header %}
@@ -25,7 +24,7 @@
   }
   </style>
 
-  <style type="text/css">
+  <style>
     {% capture include_to_scssify %}
       {% include_cached base.scss %}
     {% endcapture %}
@@ -39,5 +38,4 @@
   <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | relative_url }}">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}"></noscript>
   {% include favicons.html %}
-  {% seo title="false" %}
 </head>

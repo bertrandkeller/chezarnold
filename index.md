@@ -61,7 +61,7 @@ layout: default
 	{% assign sitetime = site.time | date: "%s" %}
 	{% assign concertdate = concert.concertdate | date: "%s" %}
 	{% if concertdate > sitetime %}
-<time class="date" datetime="{{ concert.concertdate | date: "%Y%m%d" }}">{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
+<time class="date" datetime="{{ concert.concertdate | date: "%Y-%m-%d" }}">{{ concert.concertdate }}</time> - {{ concert.lieu }}{% if concert.lien %} - <a href="{{ concert.lien }}">Infos</a>{% endif %}<br>
 	{% endif %}
 	{% endfor %}
 </p>

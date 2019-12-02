@@ -1,9 +1,9 @@
 <div class="skip-links">
   <a href="#main">Contenu principal</a>
 </div>
-<header class="site-header-top site-header-hero" role="banner">
+<header class="site-header-top site-header-hero">
   <div class="site-header-top site-header-top__align">
-      <nav class="nav-main nav-main__scroll" role="navigation">
+      <nav class="nav-main nav-main__scroll">
         <ul>
           <li><a href="/">Accueil</a></li>
           {% for page in site.html_pages %}
@@ -13,6 +13,7 @@
             {% endif %}
             {% endif %}
           {% endfor %}
+        </ul>
       </nav>
   </div>
 
