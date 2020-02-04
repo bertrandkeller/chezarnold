@@ -19,7 +19,7 @@ description: Arnold est un artiste de chanson française. Sur cette page vous tr
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chezarnold.fr"
 twitter_username: bertrandkeller
-github_username:  bertrandkeller
+github_username: bertrandkeller
 environment: production
 repository: bertrandkeller/chezarnold.git
 
@@ -41,11 +41,11 @@ facebook:
 
 defaults:
   - scope:
-     path: "_posts"
+      path: "_posts"
     values:
-     layout: "post"
-     permalink: "actualité/:year/:month/:day/"
-     image: /assets/images/background-arnold.jpg
+      layout: "post"
+      permalink: "actualité/:year/:month/:day/"
+      image: /assets/images/background-arnold.jpg
   - scope:
       path: "_albums"
     values:
@@ -60,10 +60,10 @@ jekyll_tidy:
   compress_html: true
 
 algolia:
-  application_id: 'DGB0MVTOD1'
-  index_name: 'chezarnold'
-  nodes_to_index: 'p,blockquote,li'
-  extensions_to_index: 'md'
+  application_id: "DGB0MVTOD1"
+  index_name: "chezarnold"
+  nodes_to_index: "p,blockquote,li"
+  extensions_to_index: "md"
   files_to_exclude:
     - _posts/*.html
 
@@ -99,6 +99,6 @@ cloudinary:
       sizes: "(min-width:40em) 40em, 90vw"
 
 plugins:
-   - jekyll-tidy
-   - jekyll-commonmark
-   - jekyll-feed
+  - jekyll-tidy
+  - jekyll-commonmark
+  - jekyll-feed
