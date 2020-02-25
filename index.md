@@ -9,11 +9,10 @@ layout: default
 <div>
 {% for post in site.posts limit:1 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{% if post.image %}
+{% if post.image != '/assets/images/background-arnold.jpg' %}
 {% unless post.image == '' %}
-{{ post.image }}
   {% if site.environment != 'development' %}
-  {% cloudinary {{ post.image }} alt="{{post.title}}" loading="lazy" %}
+  {% cloudinary {{ post.image }} alt="{{ post.title }}" loading="lazy" %}
   {% else %}
   <img src="{{ post.image }}" alt="{{ post.title }}">
   {% endif %}
