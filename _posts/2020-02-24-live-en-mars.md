@@ -14,6 +14,6 @@ Vendredi 27 mars à 20h au [Bar Basque](https://www.facebook.com/events/50401396
 
 Samedi 28 mars à 20h au restaurant [Le Belem](https://www.facebook.com/events/504013963867823/) à Meudon (92)
 
-Jeudi 02 Avril à 18h au [salon de l'Industrie Paris 2020](https://www.global-industrie.com/fr) à Villepinte (93)
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8NiBaJ70Db4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
