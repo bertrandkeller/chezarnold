@@ -438,4 +438,6 @@ concerts:
     lien: 'https://www.facebook.com/events/504013963867823/'
     lieu: L'Horloge - Tracy le Mont (60)
   - concertdate: '2020-07-07'
-    lieu: Les mardis de la chanson - Le Mans (72)
+    lien: >-
+      http://www.lemans.fr/dynamique/des-idees-de-visite/les-parcs-publics/le-parc-de-lile-aux-planches/
+    lieu: Parc de l'Ile aux Planches - Le Mans (72)
