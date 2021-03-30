@@ -4,7 +4,7 @@ require 'json'
 require 'open-uri'
 
 gem 'jekyll', :github => 'jekyll', :branch => 'master'
-gem 'liquid', :git => 'https://github.com/Shopify/liquid.git', branch: 'master'
+gem 'liquid'
 gem "liquid-c"
 
 group :development do
