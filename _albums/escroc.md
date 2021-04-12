@@ -1,6 +1,5 @@
 ---
 title: Escroc
-description: "Le groupe Arnold c’est vraiment un groupe de copains dont la complicité fait du bien"
 annee: 2010
 musiciens:
   - Jérémie Arnold
@@ -16,18 +15,19 @@ guests:
 videos:
   - nom: Lonesome Troubadour
     url: C9n-5-_7hT4
-  - nom: Abesses
+  - nom: Abbesses
     url: J-6sk8rOpOs
   - nom: Saoul
     url: xyvzFTIYGt4
+  - nom: Chouchou
+    url: ZqMKlou-c4c
 streaming:
- - nom: iTunes
-   url: https://itunes.apple.com/fr/album/escroc/id362076435
- - nom: Deezer
-   url: https://www.deezer.com/fr/album/696448
- - nom: spotify
-   url: https://soundcloud.com/arnold-music-2/sets/escroc
-
+  - nom: iTunes
+    url: 'https://itunes.apple.com/fr/album/escroc/id362076435'
+  - nom: Deezer
+    url: 'https://www.deezer.com/fr/album/696448'
+  - nom: spotify
+    url: 'https://soundcloud.com/arnold-music-2/sets/escroc'
 songs:
   - duree: '3:26'
     titre: Escroc
