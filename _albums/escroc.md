@@ -28,6 +28,8 @@ streaming:
     url: 'https://www.deezer.com/fr/album/696448'
   - nom: Spotify
     url: 'https://open.spotify.com/album/0i20rLC3PRzDYsWl3RVous'
+  - nom: Soundcloud
+    url: 'https://soundcloud.com/arnold-music-2/sets/escroc'
 songs:
   - duree: '3:26'
     titre: Escroc
