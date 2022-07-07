@@ -1,6 +1,5 @@
 ---
 title: Amateur Professionnel
-description: "Arnold nous emmène faire le tour du monde 🌏 et danser sur la Seine; il nous parle de jalousie et d'amour, il nous fait rire en poésie, un vrai chantier ! Bref, cet amateur professionnel joue avec les mots, nous fait danser, rêver et illumine la chanson française en invitant à l'auto-dérision."
 annee: 2019
 musiciens:
   - >-
@@ -32,7 +31,8 @@ videos:
     url: ySoEYvId7XY
 streaming:
   - nom: Spotify
-    url: 'https://open.spotify.com/album/6HPQCZXtflRGFZxIYbzklc'
+    url: >-
+      https://open.spotify.com/artist/4FuZ6rwYCc1Yhf0Zgz9RnQ/discography/all?pageUri=spotify:album:6HPQCZXtflRGFZxIYbzklc
   - nom: Apple Music
     url: >-
       https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=music&ign-mpt=uo%3D4
