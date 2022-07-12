@@ -24,8 +24,7 @@ streaming:
   - nom: Deezer
     url: 'https://www.deezer.com/album/12783240?app_id=140685'
   - nom: Spotify
-    url: >-
-      https://open.spotify.com/artist/4FuZ6rwYCc1Yhf0Zgz9RnQ/discography/all?pageUri=spotify:album:0ZkyduWZRH0EgeBmWuSaU9
+    url: 'https://open.spotify.com/album/0ZkyduWZRH0EgeBmWuSaU9'
   - nom: napster
     url: 'https://www.napster.com/artist/Art.9317/album/Alb.224199269'
   - nom: Google Play
