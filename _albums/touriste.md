@@ -25,7 +25,7 @@ streaming:
   - nom: iTunes
     url: 'http://itunes.apple.com/album/id1631137509?ls=1&app=itunes'
   - nom: Deezer
-    url: 'https://www.deezer.com/fr/album/7050001'
+    url: 'https://www.deezer.com/fr/album/329583527'
   - nom: Spotify
     url: 'https://open.spotify.com/album/5mxuqx0OQoWcBtTgPhlZpk'
 songs:
