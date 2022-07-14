@@ -27,7 +27,7 @@ streaming:
   - nom: Deezer
     url: 'https://www.deezer.com/fr/album/7050001'
   - nom: Spotify
-    url: 'https://open.spotify.com/album/25YqNjyKl7ScZ6AuOpDizz'
+    url: 'https://open.spotify.com/album/5mxuqx0OQoWcBtTgPhlZpk'
 songs:
   - titre: Le Chant des Artisans
   - titre: Précaire
