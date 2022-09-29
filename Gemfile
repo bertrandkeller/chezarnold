@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
-gem 'jekyll', :github => 'jekyll', :branch => 'master'
+gem 'jekyll'
 gem 'liquid'
 gem "liquid-c"
 
