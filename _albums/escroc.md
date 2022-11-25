@@ -30,6 +30,8 @@ streaming:
     url: 'https://open.spotify.com/album/0i20rLC3PRzDYsWl3RVous'
   - nom: Soundcloud
     url: 'https://soundcloud.com/arnold-music-2/sets/escroc'
+  - nom: Apple Music
+    url: 'https://music.apple.com/fr/album/escroc/362076435'
 songs:
   - duree: '3:26'
     titre: Escroc
