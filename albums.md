@@ -1,7 +1,7 @@
 ---
 title: Les albums
 navigation: Albums
-description: Les albums du groupe Arnold: escroc, touriste, la belle, sauvage, amateur professionnel…
+description: "Les albums du groupe Arnold: escroc, touriste, la belle, sauvage, amateur professionnel…"
 layout: page
 ---
 
