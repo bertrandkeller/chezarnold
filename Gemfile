@@ -4,6 +4,7 @@ require 'json'
 require 'open-uri'
 
 gem 'jekyll'
+gem "kramdown-parser-gfm"
 #gem 'liquid'
 #gem "liquid-c"
 
