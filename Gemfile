@@ -4,8 +4,8 @@ require 'json'
 require 'open-uri'
 
 gem 'jekyll'
-gem 'liquid'
-gem "liquid-c"
+#gem 'liquid'
+#gem "liquid-c"
 
 group :development do
     gem 'octopress-autoprefixer'
