@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 
-gem 'jekyll'
+gem "jekyll" , '~> 4.2.0'
 gem "kramdown-parser-gfm"
 #gem 'liquid'
 #gem "liquid-c"
