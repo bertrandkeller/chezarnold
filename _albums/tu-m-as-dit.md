@@ -1,7 +1,7 @@
 ---
 title: Tu m'as dit
 annee: '2023'
-image: /assets/uploads/tu-m-as-dit-visuel-760x760.jpg
+image: ''
 musiciens:
   - Chanson enregistrée
   - >-
