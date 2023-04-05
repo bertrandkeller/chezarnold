@@ -15,7 +15,7 @@ musiciens:
   - Simon Arnold (choeurs).
 videos:
   - nom: Tu m'as dit
-    url: 'https://youtu.be/djlEIAHZm7k'
+    url: djlEIAHZm7k
 streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/album/0bg72nvmh4ikw0nvpBuwXy'
