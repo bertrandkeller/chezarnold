@@ -1,7 +1,7 @@
 ---
 title: Tu m'as dit
 annee: '2023'
-image: /assets/uploads/tu-m-as-dit-visuel-760x760.png
+image: /assets/uploads/tu-m-as-dit-visuel-760x760.jpg
 musiciens:
   - Chanson enregistrée
   - >-
@@ -15,7 +15,7 @@ musiciens:
   - Simon Arnold (choeurs).
 videos:
   - nom: Tu m'as dit
-    url: djlEIAHZm7k
+    url: 'https://youtu.be/djlEIAHZm7k'
 streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/album/0bg72nvmh4ikw0nvpBuwXy'
