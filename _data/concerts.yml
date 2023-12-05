@@ -514,3 +514,6 @@ concerts:
     lieu: 'En toute intimi''thé 17h-19h, Quimperlé (29)'
   - concertdate: '2023-08-20'
     lieu: 'Concert privé, Aytré (17)'
+  - concertdate: '2023-12-15'
+    lien: 'https://www.facebook.com/Cafepoplr/?locale=fr_FR'
+    lieu: 'Café Populaire, La Pallice (17)'
