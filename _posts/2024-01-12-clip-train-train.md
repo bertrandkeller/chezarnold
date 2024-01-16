@@ -2,8 +2,8 @@
 title: Clip Train-train
 layout: post
 ---
-Je suis très heureux de vous présenter le clip de la chanson Train-Train, extraite du nouvel album "Rêves de Comptoir" qui sortira début 2024.\
-\
+Je suis très heureux de vous présenter le clip de la chanson Train-Train, extraite du nouvel album "Rêves de Comptoir" qui sortira au printemps 2024.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yaDkLFYr0RM?si=j-XP5ubHSN1FTeTK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Vidéo réalisée par [Rémy Ratynska](https://www.facebook.com/BrickRem17), avec Jérémie Arnold, Stéphane Jolly, Sylvain Berthommé, les travailleurs de l'ESAT de La Rochelle, Pierre, Bernard, Philippe, Jérôme, Marie-Laure, et Nicolas.
