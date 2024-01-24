@@ -529,3 +529,6 @@ concerts:
   - concertdate: '2024-02-24'
     lien: 'https://www.facebook.com/profile.php?id=100091899781569&sk=about'
     lieu: 'Place du marché, Arçais (79)'
+  - concertdate: '2024-06-28'
+    lien: 'https://www.facebook.com/vlaleubal/?locale=fr_FR'
+    lieu: 'Chorale Vlaleubal, La Rochelle (17)'
