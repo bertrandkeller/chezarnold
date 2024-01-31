@@ -535,3 +535,6 @@ concerts:
   - concertdate: '2024-04-12'
     lien: 'https://www.facebook.com/lehuitlarochelle/?locale=fr_FR'
     lieu: 'Le Huit, La Pallice (17)'
+  - concertdate: '2024-06-08'
+    lien: 'https://www.facebook.com/accueiljeunes.alc/?locale=fr_FR'
+    lieu: 'ALC, Chevreuse (78)'
