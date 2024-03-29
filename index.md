@@ -1,6 +1,6 @@
 ---
 title: Site officiel
-description: Arnold chanteur à moto
+description: Arnold le chanteur
 layout: default
 ---
 
