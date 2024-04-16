@@ -553,3 +553,6 @@ concerts:
   - concertdate: '2024-09-22'
     lien: 'https://www.facebook.com/profile.php?id=100051682253236'
     lieu: 'Fête de la Ville, Auvers-sur-Oise (95)'
+  - concertdate: '2024-07-25'
+    lien: 'https://www.facebook.com/BREFRiveGauche'
+    lieu: 'BREF Rive Gauche, Vannes (56)'
