@@ -5,6 +5,7 @@ require 'open-uri'
 
 gem "jekyll" , '~> 4.2.0'
 gem "kramdown-parser-gfm"
+gem 'ffi', '= 1.16.3'
 #gem 'liquid'
 #gem "liquid-c"
 
