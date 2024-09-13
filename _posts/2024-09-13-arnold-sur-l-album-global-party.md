@@ -1,9 +1,9 @@
 ---
 title: Arnold sur l'album Global Party !
-image: /assets/uploads/global-party-album-cover.jpg
+image: ''
 layout: post
 ---
-Arnold sort la chanson "Précaire" sur l'album "Global Party" du label [Putumayo](www.putumayo.com/global-party) (USA)
+La chanson "Précaire" d'Arnold sort sur l'album "Global Party" du label [Putumayo](www.putumayo.com/global-party) spécialiste en musique du monde !
 
 Bandcamp: <https://putumayo.bandcamp.com/album/global-party>\
 iTunes: <https://itunes.apple.com/us/album/global-party-by-putumayo/1764583873?ls=1&app=itunes>\
