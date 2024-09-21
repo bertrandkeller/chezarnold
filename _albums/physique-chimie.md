@@ -13,8 +13,8 @@ musiciens:
     Marc Niess (trompette). Masterisé par Benjamin Joubert au studio
     Biduloscope.
 videos:
-  - nom: Spotify
-    url: '-2ZH0Md3Pr0?'
+  - nom: Physique-Chimie
+    url: '-2ZH0Md3Pr0'
 streaming:
   - nom: Deezer
     url: 'https://www.deezer.com/fr/album/608400042'
