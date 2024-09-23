@@ -14,7 +14,7 @@ musiciens:
     Biduloscope.
 videos:
   - nom: Physique-Chimie
-    url: 2ZH0Md3Pr0
+    url: '-2ZH0Md3Pr0'
 streaming:
   - nom: Deezer
     url: 'https://www.deezer.com/fr/album/608400042'
