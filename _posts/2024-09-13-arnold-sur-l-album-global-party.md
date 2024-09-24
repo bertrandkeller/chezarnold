@@ -7,7 +7,7 @@ Nous sommes très heureux de vous annoncer la sortie de la chanson "Précaire" s
 
 Elle figure aux côtés de chansons de talentueux artites venus des quatre coins du monde.
 
-Cette chanson a été réalisée âr Tom Fire sur l'album Touriste (2013), avec Paul Amboise à la batterie, Hugo Zanghi à la basse, Hadrien Bériot à la guitare, Benjamin Dimerman à l'accordéon, Félix Foucart aux percussions, et Jérémie Arnold au chant.
+Cette chanson a été réalisée par Tom Fire sur l'album Touriste (2013), avec Paul Amboise à la batterie, Hugo Zanghi à la basse, Hadrien Bériot à la guitare, Benjamin Dimerman à l'accordéon, Félix Foucart aux percussions, et Jérémie Arnold au chant.
 
 Bandcamp: <https://putumayo.bandcamp.com/album/global-party>\
 iTunes: <https://itunes.apple.com/us/album/global-party-by-putumayo/1764583873?ls=1&app=itunes>\
