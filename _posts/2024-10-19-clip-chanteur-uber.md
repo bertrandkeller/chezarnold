@@ -9,7 +9,7 @@ Chanteur uber, un clip de Rémy Ratynska.\
 Avec Sylvain (le truand), La Mouche (la diva), Maya (la fêtarde), Arnaud (le fêtard), Annie (loueuse de parking), Marion (la femme à chat), Christine (la mamita), Maxime, Emilie, Caroline, Eurydice (les enfants), Petrouchka (le chat).\
 Merci à Belou Breschi et Valou pour les images aériennes.
 
-Titre enregistré et mixé au studio La Kapsule à Montreuil par Laurent Jaïs, avec Paul Amboise (batterie et percus), Manu Paillardon (basse), Nicolas Miscoria (guitare électrique), Camille Ballon (claviers), Laurent Jaïs (programmations additionnelles) et Jérémie Arnold (guitare acoustique et chant). Masterisé par Benjamin Joubert au studio Biduloscope.
+Titre enregistré et mixé au studio La Kapsule à Montreuil par Laurent Jaïs, avec Paul Amboise (batterie et percus), Manu Paillardon (basse), Nico Miscoria (guitare électrique), Camille Ballon (claviers), Laurent Jaïs (programmations additionnelles) et Jérémie Arnold (guitare acoustique et chant). Masterisé par Benjamin Joubert au studio Biduloscope.
 
 Moyens techniques pour le clip association Kinozoom.
 
