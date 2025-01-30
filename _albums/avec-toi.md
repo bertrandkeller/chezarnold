@@ -14,7 +14,7 @@ guests:
   - Nicolas Miscoria - guitares
   - Neil Chablaoui - guitares
   - Benjamin Dimerman - claviers
-  - Camille Ballon - Claviers
+  - Camille Ballon - claviers
   - Nicolas Cambon - bugle
 videos: []
 songs:
