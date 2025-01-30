@@ -41,10 +41,8 @@ songs:
   - duree: '4:14'
     titre: Tu m'as dit
 ---
-Album enregistré et mixé aux studios La Kapsule par Laurent Jais.
-
-Mastering par Benjamin Joubert aux studios Biduloscope.
-
-Merci à Kalima Productions.
-
-Merci à Stéphane Jolly, pour ses trois textes : Train-train, Le camion bleu et Féline.
+\
+Merci à Stéphane Jolly (alias Yuri), pour ses trois textes : Train-train, Le camion bleu et Féline.\
+Album enregistré et mixé aux [studios La Kapsule](https://www.lakapsule.com/) par [Laurent Jais](https://www.laurentjais.com/). \
+Mastering par Benjamin Joubert aux studios Biduloscope.\
+Merci à [Kalima Productions](https://kalimaproductions.org/).
