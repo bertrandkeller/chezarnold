@@ -3,7 +3,7 @@ title: Avec toi
 annee: '2025'
 image: /assets/uploads/avec-toi.jpg
 musiciens:
-  - Jérémie Arnold - chant guitare
+  - Jérémie Arnold - chant et guitares
   - Laurent Jais - arrangements
   - Alexandre Leitao - accordéon
   - Paul Amboise - batterie/percus
