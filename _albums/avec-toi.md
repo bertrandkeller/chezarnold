@@ -16,6 +16,7 @@ guests:
   - Benjamin Dimerman - claviers
   - Camille Ballon - Claviers
   - Nicolas Cambon - bugle
+videos: []
 songs:
   - duree: '4:35'
     titre: Avec toi
