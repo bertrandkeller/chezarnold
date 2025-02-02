@@ -604,3 +604,6 @@ concerts:
   - concertdate: '2025-05-16'
     lien: 'https://www.specialistes17.com/'
     lieu: 'Les Spécialistes, Lagord (17)'
+  - concertdate: '2025-02-28'
+    lien: 'https://www.facebook.com/Cafepoplr'
+    lieu: 'Le Café Populaire, La Pallice (17)'
