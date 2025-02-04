@@ -607,3 +607,6 @@ concerts:
   - concertdate: '2025-02-28'
     lien: 'https://www.facebook.com/Cafepoplr'
     lieu: 'Le Café Populaire, La Pallice (17)'
+  - concertdate: '2025-03-22'
+    lien: 'https://www.ville-puilboreau.fr/point-d-interet/le-cube/'
+    lieu: 'Le Cube, Puilboreau (17)'
