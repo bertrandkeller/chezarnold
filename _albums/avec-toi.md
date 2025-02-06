@@ -52,8 +52,8 @@ songs:
     titre: Tu m'as dit
 ---
 Paroles et musique de Jérémie Arnold.\
-Merci à Stéphane Jolly (alias Yuri), auteur de Train-train, Le camion bleu et Féline.\
+Merci à Stéphane Jolly, auteur de Train-train, Le camion bleu et Féline.\
 Album enregistré et mixé aux [studios La Kapsule](https://www.lakapsule.com/) par [Laurent Jais](https://www.laurentjais.com/). \
 Mastering par Benjamin Joubert aux studios Biduloscope.\
-[](https://www.facebook.com/pons.sebastien1/)\
+\
 Merci à [Kalima Productions](https://kalimaproductions.org/).
