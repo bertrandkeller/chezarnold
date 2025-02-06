@@ -16,7 +16,17 @@ guests:
   - Benjamin Dimerman - claviers
   - Camille Ballon - claviers
   - Nicolas Cambon - bugle
-videos: []
+videos:
+  - nom: Avec toi
+    url: 13lbUcTpjVI
+  - nom: Tu m'as dit
+    url: djlEIAHZm7k
+  - nom: Train-train
+    url: yaDkLFYr0RM
+  - nom: Chanteur ubeur
+    url: 2G2QxY_Euco
+  - nom: Physique-chimie
+    url: '-2ZH0Md3Pr0'
 songs:
   - duree: '4:35'
     titre: Avec toi
