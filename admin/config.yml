@@ -76,10 +76,5 @@ collections: # A list of collections the CMS should be able to edit
         description: "Image d’entête"
         fields: # The fields each document in this collection have
           - {label: "Header", name: "header", widget: "image"}
-      - name: "favicon"
-        label: "hefaviconader"
-        file: "_data/theme.yml"
-        description: "Image de vignette"
-        fields: # The fields each document in this collection have
           - {label: "Favicon", name: "favicon", widget: "image"}
 
