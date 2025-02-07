@@ -1,12 +1,16 @@
-<link rel="apple-touch-icon" sizes="57x57" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_57,h_57,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
-<link rel="apple-touch-icon" sizes="76x76" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_76,h_76,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
-<link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_180,h_180,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
-<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_32,h_32,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
-<link rel="icon" type="image/png" sizes="192x192" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_192,h_192,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
-<link rel="icon" type="image/png" sizes="96x96" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_96,h_96,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
+{% assign favicon = site.data.theme.header %}
+{% if site.data.theme.favicon %}
+  {% assign favicon = site.data.theme.favicon %}
+{% endif %}
+<link rel="apple-touch-icon" sizes="57x57" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_57,h_57,f_png/https://chezarnold.fr/{{ favicon }}">
+<link rel="apple-touch-icon" sizes="76x76" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_76,h_76,f_png/https://chezarnold.fr/{{ favicon }}">
+<link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_180,h_180,f_png/https://chezarnold.fr/{{ favicon }}">
+<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_32,h_32,f_png/https://chezarnold.fr/{{ favicon }}">
+<link rel="icon" type="image/png" sizes="192x192" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_192,h_192,f_png/https://chezarnold.fr/{{ favicon }}">
+<link rel="icon" type="image/png" sizes="96x96" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_96,h_96,f_png/https://chezarnold.fr/{{ favicon }}">
 <link rel="manifest" href={{ "manifest.json" | relative_url }}>
-<link rel="shortcut icon" sizes="16x16" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_16,h_16,f_ico/https://chezarnold.fr/{{ site.data.theme.header }}">
+<link rel="shortcut icon" sizes="16x16" href="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_16,h_16,f_ico/https://chezarnold.fr/{{ favicon }}">
 <meta name="msapplication-TileColor" content="#000">
-<meta name="msapplication-TileImage" content="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_144,h_144,f_png/https://chezarnold.fr/{{ site.data.theme.header }}">
+<meta name="msapplication-TileImage" content="https://res.cloudinary.com/dou0m7u5s/image/fetch/c_fill,f_auto,q_auto,w_144,h_144,f_png/https://chezarnold.fr/{{ favicon }}">
 <meta name="msapplication-config" content={{ "/assets/favicons/browserconfig.xml" | relative_url }}>
 <meta name="theme-color" content="#000">
