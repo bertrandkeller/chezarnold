@@ -27,6 +27,19 @@ videos:
     url: 2G2QxY_Euco
   - nom: Physique-chimie
     url: '-2ZH0Md3Pr0'
+streaming:
+  - nom: Spotify
+    url: 'https://open.spotify.com/intl-fr/album/23LBVhw8ijDMcsscTUZHFy'
+  - nom: Deezer
+    url: 'https://www.deezer.com/fr/album/700780311'
+  - nom: YouTube Music
+    url: >-
+      https://music.youtube.com/playlist?list=OLAK5uy_ljzjbigkWGw3RPIym44qm-H_1z4XIQVtY
+  - nom: Amazon Music
+    url: >-
+      https://music.amazon.fr/albums/B0DTK5J334?marketplaceId=A13V1IB3VIYZZH&musicTerritory=FR&ref=dm_sh_b039ibbMpiNHi1JELBXqEJFJv
+  - nom: Apple Music
+    url: 'https://music.apple.com/fr/album/avec-toi/1791697189?i=1791697192'
 songs:
   - duree: '4:35'
     titre: Avec toi
