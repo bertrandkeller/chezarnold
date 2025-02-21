@@ -613,3 +613,8 @@ concerts:
   - concertdate: '2025-06-17'
     lien: 'https://www.emeis.fr/maison-de-retraite-la-claire-fontaine-la-rochelle'
     lieu: 'Ehpad A la Claire Fontaine, La Rochelle (17)'
+  - concertdate: '2025-10-17'
+    lien: ''
+    lieu: 'Salle des fêtes, Le Faouet (56)'
+  - concertdate: '2025-10-18'
+    lieu: 'Maison Pour Tous de Penhars, Quimper (29)'
