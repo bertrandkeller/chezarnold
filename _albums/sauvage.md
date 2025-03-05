@@ -9,6 +9,8 @@ musiciens:
 streaming:
   - nom: iTunes
     url: 'https://itunes.apple.com/fr/album/sauvage/id278426276'
+  - nom: Apple Music
+    url: 'https://music.apple.com/fr/artist/chupa-chuva/278426280'
 songs:
   - duree: '4:41'
     titre: Sauvage
