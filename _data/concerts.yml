@@ -624,3 +624,6 @@ concerts:
   - concertdate: '2025-06-06'
     lien: 'https://www.facebook.com/cafelefrancais/?locale=fr_FR'
     lieu: 'Café Le Français, Surgères (17)'
+  - concertdate: '2025-04-17'
+    lien: 'https://www.facebook.com/p/Les-Arcades-de-Simone-100057659462377/'
+    lieu: 'Les Arcades, La Rochelle (17)'
