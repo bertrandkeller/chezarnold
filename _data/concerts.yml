@@ -633,3 +633,6 @@ concerts:
   - concertdate: '2025-09-20'
     lien: 'https://www.facebook.com/CreperieLeBelem/?locale=fr_FR'
     lieu: 'Crêperie Le Belem, Meudon (92)'
+  - concertdate: '2025-05-02'
+    lien: 'https://www.facebook.com/lacavaso/?locale=fr_FR'
+    lieu: 'La Cav''à So, La Rochelle (17)'
