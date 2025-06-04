@@ -639,3 +639,6 @@ concerts:
   - concertdate: '2025-06-07'
     lien: 'https://www.facebook.com/profile.php?id=61567905754720'
     lieu: 'Chez Pichette, L''Houmeau (17)'
+  - concertdate: '2025-07-03'
+    lien: 'https://www.facebook.com/belledugabut/?locale=fr_FR'
+    lieu: 'La Belle du Gabut, La Rochelle (17)'
