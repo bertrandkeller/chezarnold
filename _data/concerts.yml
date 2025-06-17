@@ -642,3 +642,7 @@ concerts:
   - concertdate: '2025-07-03'
     lien: 'https://www.facebook.com/belledugabut/?locale=fr_FR'
     lieu: 'La Belle du Gabut, La Rochelle (17)'
+  - concertdate: '2025-06-17'
+  - concertdate: '2025-12-12'
+    lien: 'https://www.facebook.com/lestontonsbinouz/?locale=fr_FR'
+    lieu: 'Les Tontons Binouz, La Rochelle (17)'
