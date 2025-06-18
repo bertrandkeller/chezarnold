@@ -649,3 +649,5 @@ concerts:
   - concertdate: '2025-07-12'
     lien: 'https://www.google.com/search?client=firefox-b-d&q=collectifatom'
     lieu: 'Hangar à sel, Les Portes en Ré (17)'
+  - concertdate: '2025-09-27'
+    lieu: 'Concert chez l''habitant, Laleu (17)'
