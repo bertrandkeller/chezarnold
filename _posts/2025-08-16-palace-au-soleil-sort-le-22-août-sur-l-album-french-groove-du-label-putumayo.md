@@ -1,11 +1,14 @@
 ---
-title: '"Palace au soleil" sur l''album French Groove du label Putumayo '
+title: >-
+  La chanson "Palace au soleil" sort sur l'album "French Groove" du label
+  Putumayo 
 layout: post
 ---
-This album will be release on August 22nd. \
+The song "Palace au soleil\
+[](https://ffm.to/french-groove)\
+[](https://www.putumayo.com/french-groove)\
 French Groove captures the stylish spirit of a new wave of Francophone musicians who blend upbeat global rhythms and retro cool with an inimitable French touch.\
-Featuring an array of up-and-coming talents, the songs on French Groove mix classic chanson\
-ith Brazilian samba and bossa, Caribbean rhythms, retro ye ye cool & sunny Riviera funk.\
+Featuring an array of up-and-coming talents, the songs on French Groove mix classic chanson with Brazilian samba and bossa, Caribbean rhythms, retro ye ye cool & sunny Riviera funk.\
 Enjoy a festive musical tour de France with songs that will transport you from the chic cafés of Paris to the multicultural Mediterranean mélange of Marseilles.\
 Bon voyage!
 
