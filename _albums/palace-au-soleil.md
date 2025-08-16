@@ -1,18 +1,19 @@
 ---
 title: Palace au soleil
 annee: '2025'
-image: /assets/uploads/french-groove-album-cover.jpg
+image: /assets/uploads/palace-au-soleil.jpg
 musiciens:
-  - >-
-    Songwriter / voices / acoustic guitar : Jérémie Arnold Arranger / record /
-    mix : Laurent Jaïs Bass / electric guitar / keyboard : Emmanuel Paillardon
-    Drums / percussions : Paul Amboise
+  - Voix
+  - 'guitare acoustique : Jérémie Arnold / Arrangements : Laurent Jaïs / Basse'
+  - guitare élec
+  - 'claviers : Emmanuel Paillardon / Batterie'
+  - 'percussions : Paul Amboise'
 videos:
   - nom: Palace au soleil - French Groove
     url: chqYCbtI2rI
 ---
 Paroles et musique de Jérémie Arnold.\
 Chanson réalisée aux [studios La Kapsule](https://www.lakapsule.com/) par [Laurent Jais](https://www.laurentjais.com/). \
-[](https://ffm.to/french-groove)\
-[](https://www.putumayo.com/)\
+\
+[](https://www.putumayo.com/french-groove)\
 Merci à [Kalima Productions](https://kalimaproductions.org/).
