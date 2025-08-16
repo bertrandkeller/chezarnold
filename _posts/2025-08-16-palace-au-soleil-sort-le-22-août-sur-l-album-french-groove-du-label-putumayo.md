@@ -4,7 +4,7 @@ title: >-
   Putumayo 
 layout: post
 ---
-Good news ! The song "Palace au soleil" of [Arnold ](https://www.putumayo.com/arnold)will be released on the album "[_French Groove_](https://www.putumayo.com/french-groove)" of [Putumayo](https://www.putumayo.com/french-groove), on August 22nd
+Good news ! The song "Palace au soleil" of [Arnold ](https://www.putumayo.com/arnold)will be released on the album "[_French Groove_](https://www.putumayo.com/french-groove)" of [Putumayo](https://www.putumayo.com/french-groove), on August 22nd.
 
 
 
