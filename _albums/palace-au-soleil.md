@@ -17,6 +17,5 @@ songs:
 ---
 Paroles et musique de Jérémie Arnold.\
 Chanson réalisée aux [studios La Kapsule](https://www.lakapsule.com/) par [Laurent Jais](https://www.laurentjais.com/). \
-\
-[](https://www.putumayo.com/french-groove)\
+Cette chanson fait partie de l'album "_French Groove_" du label [Putumayo](https://www.putumayo.com/french-groove).\
 Merci à [Kalima Productions](https://kalimaproductions.org/).
