@@ -1,5 +1,5 @@
 ---
-title: Palace au soleil (Putumayo)
+title: Palace au soleil
 annee: '2025'
 image: /assets/uploads/palace-au-soleil.jpg
 musiciens:
@@ -7,8 +7,6 @@ musiciens:
 videos:
   - nom: Palace au soleil - French Groove
     url: chqYCbtI2rI
-  - nom: Palace au soleil - Avec les élèves du lycée hôtelier de La Rochelle
-    url: 'https://vimeo.com/1087781779/a55318842c?share=copy'
 songs:
   - duree: '03:21'
     titre: Palace au soleil
