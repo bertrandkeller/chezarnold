@@ -7,6 +7,19 @@ musiciens:
 videos:
   - nom: Palace au soleil - French Groove
     url: chqYCbtI2rI
+streaming:
+  - nom: Spotify
+    url: >-
+      https://open.spotify.com/intl-fr/album/7d0vbWP5V70zp9rQ9WdCbJ?si=xF1LeJtuQ_27hVrRCMhG2g&nd=1&dlsi=e16cf415e0c74705
+  - nom: Apple
+    url: 'https://music.apple.com/us/album/french-groove-by-putumayo/1829783915'
+  - nom: Pandora
+    url: 'https://pandora.app.link/dxFce0Pv2Vb'
+  - nom: iTunes
+    url: >-
+      https://itunes.apple.com/us/album/french-groove-by-putumayo/1829783915?ls=1&app=itunes
+  - nom: Bandcamp
+    url: 'https://putumayo.bandcamp.com/album/french-groove'
 songs:
   - duree: '03:21'
     titre: Palace au soleil
