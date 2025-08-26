@@ -6,7 +6,7 @@ musiciens:
   - ''
 videos:
   - nom: Palace au soleil - French Groove
-    url: chqYCbtI2rI
+    url: eJ-bRlaa7lo
 streaming:
   - nom: Spotify
     url: >-
