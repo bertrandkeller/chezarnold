@@ -1,12 +1,12 @@
 ---
-title: Palace au soleil (Putumayo)
+title: Palace au Soleil (Putumayo)
 annee: '2025'
 image: /assets/uploads/palace-au-soleil.jpg
 musiciens:
   - ''
 videos:
-  - nom: Palace au soleil - French Groove
-    url: eJ-bRlaa7lo
+  - nom: Palace au Soleil - Putumayo
+    url: 5jsZ3pnjr_g
 streaming:
   - nom: Spotify
     url: >-
