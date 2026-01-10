@@ -665,3 +665,6 @@ concerts:
     lieu: 'Chez Bribri, Port Neuf'
   - concertdate: '2026-01-31'
     lieu: 'Concert privé, Nieul sur mer (17)'
+  - concertdate: '2026-06-26'
+    lien: 'https://www.facebook.com/vlaleubal/?locale=fr_FR'
+    lieu: 'Chorale des enfants de Vlaleubal, Laleu'
