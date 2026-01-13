@@ -7,4 +7,4 @@ Chanson sortie sur l'album "French bossa" du label [Putumayo](https://www.putuma
 Merci à [ICI Label](https://icilabel.bandcamp.com/)\
 [](http://chupachuva.free.fr/index.php?id=1)\
 Avec Jérémie Arnold (texte et voix), Hadrien Bériot (musique et guitare), Hugo Zanghi (basse), Félix Foucart (batterie et percussions), Marc niess (trompette), guilhem Fouetillou (clavier).\
-Chanson initialement enregistrée et mixée en 2006 par Bertrand Allaume.
+Chanson enregistrée et mixée en 2006 par Bertrand Allaume.
