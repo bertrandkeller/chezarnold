@@ -1,5 +1,5 @@
 ---
-title: Palace au Soleil
+title: Palace au Soleil (Putumayo)
 annee: '2025'
 image: /assets/uploads/palace-au-soleil.jpg
 musiciens:
