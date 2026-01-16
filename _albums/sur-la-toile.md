@@ -4,7 +4,7 @@ annee: '2026'
 image: /assets/uploads/sur-la-toile.jpg
 videos:
   - nom: Sur la toile - Putumayo
-    url: BIs9w5EnW9I?si=r8i5bVxhn51Q9It8
+    url: BIs9w5EnW9I
 streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/intl-fr/track/5YVTYcSdyd8OjUomk5SuOX'
