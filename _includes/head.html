@@ -25,9 +25,9 @@
   </style>
 
   <style>
-    {% capture include_to_scssify %}
+    {%- capture include_to_scssify -%}
       {% include_cached base.scss %}
-    {% endcapture %}
+    {%- endcapture -%}
     {{ include_to_scssify | scssify }}
   </style>
   <script>

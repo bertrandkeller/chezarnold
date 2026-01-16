@@ -15,7 +15,7 @@ layout: default
         {% capture source %}
         {% comment %}Inspired by https://www.sylvaindurand.org/ameliorer-la-typographie-avec-jekyll/{% endcomment %}
         {% assign temp1 = content | split: '<pre' %}
-        {% for temp2 in temp1 %}
+        {%- for temp2 in temp1 -%}
           {% assign temp3 = temp2 | split: '</pre>' %}
           {% if temp3.size == 2 %}
             <pre{{ temp3.first | newline_to_br }}</pre>
@@ -47,7 +47,7 @@ layout: default
           {% assign t = t | replace: '...' , '&#8230;' %}
 
           {{ t }}
-        {% endfor %}
+        {% endfor -%}
 {% endcapture %}{{- source -}}
     </main>
     <footer>

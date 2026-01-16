@@ -6,13 +6,13 @@
       <nav class="nav-main nav-main__scroll">
         <ul>
           <li><a href="/">Accueil</a></li>
-          {% for page in site.html_pages %}
-            {% if page.navigation %}
-            {% if page.pagination_info.curr_page == 1 or page.path != "index.html" %}
-            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.navigation }}</a></li>
-            {% endif %}
-            {% endif %}
-          {% endfor %}
+          {%- for page in site.html_pages -%}
+            {%- if page.navigation %}
+            {%- if page.pagination_info.curr_page == 1 or page.path != "index.html" %}
+          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.navigation }}</a></li>
+            {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
         </ul>
       </nav>
   </div>
