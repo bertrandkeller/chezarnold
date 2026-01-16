@@ -9,13 +9,15 @@ layout: default
     {% if site.environment != 'development' %}
     {% cloudinary /assets/images/{{ page.title | slugify }}.jpg alt="{{ page.title }}" class="post-album-image" %}
     {% else %}
-    {% if page.image %}<img src="{{ page.image }}" alt="{{ page.title }}">{% endif %}
-    <img class="post-album-image" src="/assets/images/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">
+    {% if page.image %}<img class="post-album-image" src="/assets/images/{{ page.title | slugify }}.jpg" alt="{{ page.title }}">{% endif %}
     {% endif %}
+    {{ page.videos.size }}
+    {% if page.videos %}
     {% if page.videos.size != 0 %}
     <h3>Voir les Clips</h3>
     {% assign videos = page.videos %}
     {% include video.html %}
+    {% endif %}
     {% endif %}
     {% if page.streaming %}
     <h2>Écoutez cet album en ligne</h2>
