@@ -8,6 +8,8 @@ videos:
 streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/intl-fr/track/5YVTYcSdyd8OjUomk5SuOX'
+  - nom: Deezer
+    url: 'https://www.deezer.com/fr/album/892153802'
 ---
 Chanson sortie sur l'album "French bossa" du label [Putumayo](https://www.putumayo.com/).\
 Merci à [ICI Label](https://icilabel.bandcamp.com/) et [Chupa Chuva](http://chupachuva.free.fr/index.php?id=1)
