@@ -682,3 +682,6 @@ concerts:
   - concertdate: '2026-02-26'
     lien: 'https://www.facebook.com/profile.php?id=100057659462377'
     lieu: 'Les Arcades, La Rochelle'
+  - concertdate: '2026-03-27'
+    lien: 'https://www.facebook.com/lacavedelaleu/?locale=fr_FR'
+    lieu: La Cave de Laleu
