@@ -685,3 +685,6 @@ concerts:
   - concertdate: '2026-03-27'
     lien: 'https://www.facebook.com/lacavedelaleu/?locale=fr_FR'
     lieu: La Cave de Laleu
+  - concertdate: '2026-03-28'
+    lien: 'https://www.facebook.com/jmcameleon/?locale=fr_FR'
+    lieu: 'Le Caméléon, Conchy-les-pots'
