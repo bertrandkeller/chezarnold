@@ -4,7 +4,7 @@ annee: '2026'
 image: /assets/uploads/cover-3000px.jpg
 videos:
   - nom: Il y a l'IA
-    url: 'rOeQpbtuhCQ '
+    url: rOeQpbtuhCQ
 streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/intl-fr/track/1XNoaTfBn3hQErSYkjb5b5'
