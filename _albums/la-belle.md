@@ -22,7 +22,7 @@ streaming:
   - nom: iTunes
     url: 'https://itunes.apple.com/fr/album/la-belle/id1099779362'
   - nom: Deezer
-    url: 'https://www.deezer.com/album/12783240?app_id=140685'
+    url: 'https://www.deezer.com/fr/album/12783240'
   - nom: Spotify
     url: 'https://open.spotify.com/album/0ZkyduWZRH0EgeBmWuSaU9'
   - nom: napster
