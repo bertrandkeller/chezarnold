@@ -20,6 +20,8 @@ streaming:
       https://itunes.apple.com/us/album/french-groove-by-putumayo/1829783915?ls=1&app=itunes
   - nom: Bandcamp
     url: 'https://putumayo.bandcamp.com/album/french-groove'
+  - nom: Deezer
+    url: 'https://www.deezer.com/fr/album/796168941'
 songs:
   - duree: '03:21'
     titre: Palace au soleil
