@@ -717,3 +717,6 @@ concerts:
   - concertdate: '2026-05-29'
     lien: 'https://www.facebook.com/profile.php?id=100063686014402'
     lieu: 'La Trinquette avec Les Fripouilles, La Rochelle'
+  - concertdate: '2026-06-05'
+    lien: 'https://www.facebook.com/bardelaplagecdb/?locale=fr_FR'
+    lieu: 'Bar de la Plage avec les Fripouilles, La Rochelle'
