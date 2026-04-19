@@ -720,3 +720,6 @@ concerts:
   - concertdate: '2026-06-05'
     lien: 'https://www.facebook.com/bardelaplagecdb/?locale=fr_FR'
     lieu: 'Bar de la Plage avec les Fripouilles, La Rochelle'
+  - concertdate: '2026-06-12'
+    lien: 'https://www.facebook.com/FABCantineLR/?locale=fr_FR'
+    lieu: 'La Fabuleuse Cantine avec Les Fripouilles, La Rochelle'
