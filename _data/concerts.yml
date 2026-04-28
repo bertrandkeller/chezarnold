@@ -723,3 +723,6 @@ concerts:
   - concertdate: '2026-06-20'
     lien: 'https://www.facebook.com/FABCantineLR/?locale=fr_FR'
     lieu: 'La Fabuleuse Cantine avec Les Fripouilles, La Rochelle'
+  - concertdate: '2026-08-03'
+    lien: 'https://www.facebook.com/p/Atom-Collectif-Artistique-61571233466918/'
+    lieu: 'Rencontres artistiques, Les Portes-en-Ré'
