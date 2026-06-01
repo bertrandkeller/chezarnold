@@ -14,6 +14,6 @@ Laurent Jaïs : pistes additionnelles \
 Stéphane Jaïs : guitare électrique \
 Jérémie Arnold : guitares, voix
 
-Avec Marion, Maxime, Emilie et Caroline dans le rôle des robots :-)
+Avec Marion, Maxime, Emilie et Caroline Arnold, dans le rôle des robots :-)
 
 Merci à Florent Bony de Kalima Productions !
