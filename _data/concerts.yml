@@ -729,3 +729,6 @@ concerts:
   - concertdate: '2026-06-21'
     lien: 'https://www.facebook.com/p/Au-BourPif-100090934984780/'
     lieu: 'Au Bour''Pif, La Rochelle'
+  - concertdate: '2026-08-07'
+    lien: 'https://www.facebook.com/letheatredardoise/?locale=fr_FR'
+    lieu: 'Théâtre d''Ardoise, Ile d''Oléron'
