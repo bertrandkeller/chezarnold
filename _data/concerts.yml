@@ -732,3 +732,6 @@ concerts:
   - concertdate: '2026-08-07'
     lien: 'https://www.facebook.com/letheatredardoise/?locale=fr_FR'
     lieu: 'Théâtre d''Ardoise, Ile d''Oléron'
+  - concertdate: '2026-09-05'
+    lien: 'https://www.facebook.com/LeFrance1LaRochelle/?locale=fr_FR'
+    lieu: 'Le France 1 avec les Fripouilles, La Rochelle'
