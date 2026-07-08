@@ -10,6 +10,8 @@ Frantxoa Erraçarret - batterie \
 Emmanuel Paillardon - basse, chœurs\
 Camille Ballon - claviers \
 Jérémie Arnold - guitares, voix\
+\
+\
 Artwork de Sébastien Pons - www.sebpons-art.com\
 Florent Bony de Kalima Productions\
 Paroles et musique - Jérémie Arnold
