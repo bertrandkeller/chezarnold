@@ -735,3 +735,6 @@ concerts:
   - concertdate: '2026-09-25'
     lien: 'https://www.facebook.com/prepa.nautic/'
     lieu: 'Prépa Nautic avec Les Fripouilles, La Rochelle'
+  - concertdate: '2026-08-29'
+    lien: En direct à 15h sur Radio Saint-Dié
+    lieu: 'https://www.radiosaintdie.fr/'
