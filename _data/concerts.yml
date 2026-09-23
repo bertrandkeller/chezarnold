@@ -741,3 +741,6 @@ concerts:
   - concertdate: '2026-08-29'
     lien: 'https://kulturebotte.com/lagenda/arnold/'
     lieu: 'Le Little Pub, Remiremont (88)'
+  - concertdate: '2026-10-09'
+    lien: 'https://www.facebook.com/FABCantineLR/?locale=fr_FR'
+    lieu: 'Fabuleuse Cantine avec Les Fripouilles, La Rochelle'
