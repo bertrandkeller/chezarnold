@@ -39,7 +39,7 @@ streaming:
     url: >-
       https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=itunes&ign-mpt=uo%3D4
   - nom: Deezer
-    url: 'https://www.deezer.com/fr/album/112851832'
+    url: 'https://www.deezer.com/fr/album/1123178512'
   - nom: Amazon Music
     url: 'https://music.amazon.com/albums/B07YM1YQ8N?tag=believe-20'
   - nom: Napster
