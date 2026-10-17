@@ -33,17 +33,12 @@ streaming:
   - nom: Spotify
     url: 'https://open.spotify.com/intl-fr/album/5ditcUt06FfJXdCIE0VWYE'
   - nom: Apple Music
-    url: >-
-      https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=music&ign-mpt=uo%3D4
+    url: 'https://music.apple.com/fr/album/amateur-professionnel/6823665693'
   - nom: iTunes
     url: >-
       https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=itunes&ign-mpt=uo%3D4
   - nom: Deezer
     url: 'https://www.deezer.com/fr/album/1123178512'
-  - nom: Amazon Music
-    url: 'https://music.amazon.com/albums/B07YM1YQ8N?tag=believe-20'
-  - nom: Napster
-    url: 'https://music.amazon.com/albums/B07YM1YQ8N?tag=believe-20'
 songs:
   - titre: Tour du Monde
   - titre: La Seine
