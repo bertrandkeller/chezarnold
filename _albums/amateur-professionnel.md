@@ -34,9 +34,6 @@ streaming:
     url: 'https://open.spotify.com/intl-fr/album/5ditcUt06FfJXdCIE0VWYE'
   - nom: Apple Music
     url: 'https://music.apple.com/fr/album/amateur-professionnel/6823665693'
-  - nom: iTunes
-    url: >-
-      https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=itunes&ign-mpt=uo%3D4
   - nom: Deezer
     url: 'https://www.deezer.com/fr/album/1123178512'
 songs:
