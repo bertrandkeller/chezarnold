@@ -31,7 +31,7 @@ videos:
     url: ySoEYvId7XY
 streaming:
   - nom: Spotify
-    url: 'https://open.spotify.com/album/6HPQCZXtflRGFZxIYbzklc'
+    url: 'https://open.spotify.com/intl-fr/album/5ditcUt06FfJXdCIE0VWYE'
   - nom: Apple Music
     url: >-
       https://music.apple.com/fr/album/amateur-professionnel/1481587035?app=music&ign-mpt=uo%3D4
