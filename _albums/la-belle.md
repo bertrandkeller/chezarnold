@@ -1,5 +1,5 @@
 ---
-title: La belle
+title: La Belle
 annee: 2016
 musiciens:
   - 'Jérémie Arnold - chant, choeurs, guitare'
@@ -20,19 +20,13 @@ videos:
     url: 4cOCqPV4Auc
 streaming:
   - nom: iTunes
-    url: 'https://itunes.apple.com/fr/album/la-belle/id1099779362'
+    url: 'http://itunes.apple.com/album/id6823800813?ls=1&app=itunes'
   - nom: Deezer
-    url: 'https://www.deezer.com/fr/album/12783240'
+    url: 'https://www.deezer.com/fr/album/1123413902'
   - nom: Spotify
-    url: 'https://open.spotify.com/album/0ZkyduWZRH0EgeBmWuSaU9'
-  - nom: napster
-    url: 'https://www.napster.com/artist/Art.9317/album/Alb.224199269'
-  - nom: Google Play
-    url: >-
-      https://play.google.com/store/music/album/Arnold_La_belle?id=Bimxadnfwas44tosmlsnhdfuhbi&PCamRefID=LFV_8ae71c3b908160f307a6db30341e42af
-  - nom: Amazon
-    url: >-
-      https://amazon.fr/La-belle/dp/B01FF3VU8M?tag=linkfire03-20&ie=UTF8&linkCode=as2&ascsubtag=8ae71c3b908160f307a6db30341e42af
+    url: 'spotify:album:1fqH87icaYUhiUnLHg7UYh'
+  - nom: Apple Music
+    url: 'http://itunes.apple.com/album/id/6823800813'
 songs:
   - duree: '4:09'
     titre: Exil
