@@ -759,15 +759,16 @@ concerts:
   - concertdate: '2027-02-15'
     lien: >-
       https://www.larochelle.fr/annuaires/lieux/annuaire/mediatheque-de-laleu-la-pallice-la-rossignolette
-    lieu: >-
-      Atelier d'écriture de chanson du 15 au 19/02, Médiathèque Laleu-La Pallice
-      (17)
+    lieu: 'Atelier d''écriture de chanson du 15 au 19/02, Médiathèque Laleu-La Pallice'
   - concertdate: '2027-08-27'
     lien: 'https://www.instagram.com/lelittlepub/'
-    lieu: 'Little Pub, Remiremont (88)'
+    lieu: 'Little Pub, Remiremont'
   - concertdate: '2026-12-18'
     lien: 'https://www.instagram.com/la_cave_de_laleu/'
     lieu: 'Apéro chanson spécial Noël, La Cave de Laleu'
   - concertdate: '2026-10-31'
     lien: 'https://www.facebook.com/AtelierTerraAmata/?locale=fr_FR'
     lieu: 'Soirée des bénévoles Vlaleubal à Terra Amata, La Pallice'
+  - concertdate: '2026-11-05'
+    lien: 'https://la-kanope.fr/'
+    lieu: 'Théâtre La Kanopé, Lagord'
